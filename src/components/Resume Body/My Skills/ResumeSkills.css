@@ -63,6 +63,9 @@
   .resume-skills__image {
     width: 90% !important;
   }
+  .resume-skills__text-container {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 992px) {
