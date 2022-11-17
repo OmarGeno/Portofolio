@@ -54,6 +54,7 @@
 .resume-form__submit {
   display: flex;
   justify-content: end;
+  width: 94.6%;
   margin: 10px 6px 0 0px;
 }
 
