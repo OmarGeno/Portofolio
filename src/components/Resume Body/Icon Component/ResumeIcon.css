@@ -1,0 +1,17 @@
+.Resume-icon__icon{
+    width: 100px;
+    height: 100px;
+}
+.resume-icon__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.resume-icon__container > div {
+    margin: 10px;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+}

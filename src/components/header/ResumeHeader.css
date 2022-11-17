@@ -1,0 +1,108 @@
+.resume-container__header {
+    width: 100%;
+    background-color: rgb(5,6,10);
+    height: 100vh;
+    background-image: url(https://wallup.net/wp-content/uploads/2017/03/27/418974-minimalism-abstract-digital_art-black_background-lines.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .resume-container__mini-container {
+    width: 100%;
+    height: auto;
+    margin-left: 100px;
+    color: rgb(95, 187, 126);
+  }
+  .resume-container__text {
+    font-size: 7rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  .resume-container__text > span {
+    font-family: "Righteous", cursive;
+    margin: 0 auto;
+  }
+  .resume-container__text > p {
+    font-size: 25px;
+  }
+  .o {
+    font-family: "Righteous", cursive;
+    text-shadow: -10px 0px rgb(123, 35, 35);
+  }
+  
+  @media screen and (max-width: 638px) {
+    .resume-container__header {
+      flex-wrap: wrap;
+    }
+    .resume-container__mini-container {
+      margin-left: 50px;
+    }
+  }
+  
+  @media screen and (min-width: 390px) {
+    .resume-container__text {
+      font-size: 3rem;
+    }
+    .o {
+      text-shadow: -5px 0px rgb(123, 35, 35);
+    }
+    .resume-container__text > p {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .resume-container__text {
+      margin: 0px;
+      font-size: 3rem;
+    }
+    .o {
+      text-shadow: -5px 0px rgb(123, 35, 35);
+    }
+    .resume-container__text > p {
+      font-size: 18px;
+    }
+    .resume-container__header {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .resume-container__text {
+      margin: 0px;
+      font-size: 78px;
+    }
+    .o {
+      text-shadow: -8px 0px rgb(123, 35, 35);
+    }
+    .resume-container__text > p {
+      font-size: 21px;
+    }
+    .resume-container__header {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+  }
+  
+  @media screen and (min-width: 1400px) {
+    .resume-container__text {
+      font-size: 99px;
+      margin-left: 0px;
+    }
+    .o {
+      text-shadow: -10px 0px rgb(123, 35, 35);
+    }
+    .resume-container__text > p {
+      font-size: 25px;
+    }
+    .resume-container__header {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+  }
+  
