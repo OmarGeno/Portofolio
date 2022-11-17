@@ -67,7 +67,7 @@ function App() {
         <div className="mobile">
           <ResumeHeader />
         </div>
-        <div>
+        <div className="footer">
           <ResumeContact contact={getFromInfo} />
         </div>
       </div>
