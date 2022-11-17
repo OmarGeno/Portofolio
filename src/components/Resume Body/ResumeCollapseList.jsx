@@ -1,15 +1,22 @@
-import "./ResumeCollapseList.css";
+import './ResumeCollapseList.css'
 
 function ResumeCollapseList() {
   const omar = {
-    about: "About me",
-    work: "Projects",
-    skills: "My skills",
-    contact: "Contact",
-  };
+    about: 'About me',
+    work: 'Projects',
+    skills: 'My skills',
+    contact: 'Contact',
+  }
   return (
     <div className="resume-collapse__container-list">
       <div className="resume-collapse__list">
+        <div className="logo-container">
+          <a href="#navbar">
+            <div className="logo-icon">
+              <div></div>
+            </div>
+          </a>
+        </div>
         <div className="resume-collapse__nav">
           <div>
             <a href="#aboutMe">{omar.about}</a>
@@ -55,7 +62,7 @@ function ResumeCollapseList() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default ResumeCollapseList;
+export default ResumeCollapseList

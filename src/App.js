@@ -1,9 +1,8 @@
-// import { useState } from "react";
 import "./App.css";
 import ResumeHeader from "./components/header/ResumeHeader.jsx";
-// import Header from "./components/header/Sidebar/Header";
-// import SideBar from "./components/header/Sidebar/SideBar";
 import ResumeContact from "./components/Resume Body/Contact/ResumeContact";
+import ResumeSkills from "./components/Resume Body/My Skills/ResumeSkills";
+import ResumeAbout from "./components/Resume Body/Resume About me/ResumeAbout";
 import ResumeCollapseList from "./components/Resume Body/ResumeCollapseList";
 
 function App() {
@@ -48,26 +47,21 @@ function App() {
     console.log("in main app");
     console.log(contactInfo);
   };
-
-  // const [sidebarOpen, setSideBarOpen] = useState(false);
-  // const handleViewSidebar = () => {
-  //   setSideBarOpen(!sidebarOpen);
-  // };
-
+  
   return (
     <div className="main">
       <div>
-        {/* <div className="sideba">
-          <span>
-            <Header onClick={handleViewSidebar} />
-            <SideBar isOpen={sidebarOpen} toggleSidebar={handleViewSidebar} />
-          </span>
-        </div> */}
         <ResumeCollapseList />
         <div className="mobile">
           <ResumeHeader />
         </div>
-        <div className="footer">
+        <div>
+          <ResumeAbout />
+        </div>
+        <div>
+          <ResumeSkills />
+        </div>
+        <div>
           <ResumeContact contact={getFromInfo} />
         </div>
       </div>

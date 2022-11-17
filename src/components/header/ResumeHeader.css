@@ -16,6 +16,7 @@
     height: auto;
     margin-left: 100px;
     color: rgb(95, 187, 126);
+    margin-top: 100px;
   }
   .resume-container__text {
     font-size: 7rem;
@@ -33,6 +34,17 @@
     font-family: "Righteous", cursive;
     text-shadow: -10px 0px rgb(123, 35, 35);
   }
+  @media screen and (max-width: 390px) {
+    .resume-container__text {
+      font-size: 1.5rem;
+    }
+    .o {
+      text-shadow: -2.5px 0px rgb(123, 35, 35);
+    }
+    .resume-container__text > p {
+      font-size: 15px;
+    }
+  }
   
   @media screen and (max-width: 638px) {
     .resume-container__header {
@@ -41,6 +53,7 @@
     .resume-container__mini-container {
       margin-left: 50px;
     }
+    
   }
   
   @media screen and (min-width: 390px) {

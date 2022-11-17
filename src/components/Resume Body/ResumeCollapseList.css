@@ -92,7 +92,20 @@ div:hover > a {
   box-shadow: rgb(95, 187, 126) inset 300px 0 0 0px;
 }
 
-@media screen and (max-width: 499px) {
+.logo-icon {
+  width: 50px;
+  height: 50px;
+  background-image: url(./logo/7c9516971aa345a4a169e8c955fcb908\ \(6\).png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.logo-container {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
   .resume-collapse__nav > div {
     font-size: 16px;
     padding: 1.3rem 1rem;
@@ -126,6 +139,20 @@ div:hover > a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+}
+@media screen and (max-width: 390px) {
+  .resume-collapse__nav > div {
+    font-size: 12px;
+    padding: 1.3rem 0.5rem;
+    letter-spacing: 0.1rem;
+  }
+  .resume-collapse__nav > div:hover {
+    font-size: 13px;
+  }
+  .icon-tags > a > img {
+    width: 20px;
+    height: 20px;
   }
 }
 
@@ -173,5 +200,15 @@ div:hover > a {
     color: black;
     font-size: 30px;
     text-shadow: 1px 1px rgb(95, 187, 126);
+  }
+}
+@media screen and (max-width: 1400px) {
+  .btn {
+    height: 50px;
+    padding: 15px 15px;
+    letter-spacing: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 5px;
   }
 }

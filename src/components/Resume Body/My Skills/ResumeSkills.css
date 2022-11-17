@@ -1,72 +1,79 @@
-.resume-about__image > div {
+.resume-skills__image > div {
+  background-image: url(https://img.freepik.com/free-vector/developer-activity-concept-illustration_114360-1643.jpg?w=826&t=st=1668707550~exp=1668708150~hmac=a0ec23263beeeb53bc049c380e0a5cb2ae0eed67f64dd08657d2b8bf892869e6);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 80%;
   height: 60vh;
   opacity: 0.7;
-  background-image: url(https://img.freepik.com/premium-vector/about-me-concept-illustration-premium-vector_40345-1224.jpg?w=1380);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   border-radius: 10px;
   box-shadow: 0 0 5px 1px black;
 }
-.resume-about__image {
+
+.resume-skills__image {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 50%;
-  /* height: 70vh; */
+  height: 70vh;
 }
 
-.resume-about__container {
+.resume-skills__container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 210px auto;
 }
 
-.resume-about__text-container {
+.resume-skills__text-container {
   width: 912px;
+  /* width: 50%; */
 }
 
-.resume-about__title {
+.resume-skills__title {
   font-family: "Righteous", cursive;
   color: rgb(95, 187, 126);
   font-size: 5rem;
   margin-left: 100px;
 }
 
-.resume-about__text {
+.resume-skills__text {
   margin-left: 70px;
   font-size: 17px;
   word-spacing: 2px;
   padding: 15px 30px;
 }
 
+.pre-links > a:hover {
+    transition: all .3s ease-in-out;
+    color: rgb(95,187,126);
+}
+
 @media screen and (max-width: 640px) {
-  .resume-about__container {
-    flex-wrap: wrap-reverse;
+  .resume-skills__container {
+    flex-wrap: wrap;
   }
-  .resume-about__title {
+  .resume-skills__title {
     font-size: 3rem !important;
     margin-left: 50px !important;
   }
-  .resume-about__text {
+  .resume-skills__text {
     margin-left: 15px !important;
   }
-  .resume-about__image {
+  .resume-skills__image {
     width: 90% !important;
   }
 }
 
 @media screen and (max-width: 992px) {
-  .resume-about__title {
+  .resume-skills__title {
     font-size: 2.7rem !important;
     margin-left: 50px !important;
   }
-  .resume-about__text {
+  .resume-skills__text {
     margin-left: 15px !important;
   }
-  .resume-about__image {
+  .resume-skills__image {
     width: 100% !important;
   }
 }

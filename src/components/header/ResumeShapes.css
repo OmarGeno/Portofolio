@@ -44,7 +44,23 @@
       transform: rotate(180deg);
     }
   }
-  
+  @media screen and (max-width: 390px) {
+    .resumeShapes-container__circle {
+      width: 100px;
+      height: 100px;
+    }
+    .projects {
+      font-size: 15px;
+      margin-top: 25px;
+    }
+    .projects:hover {
+      font-size: 27px;
+    }
+    .resumeShapes-container {
+      margin-right: 55px;
+    }
+  }
+
   @media screen and (max-width: 638px) {
     .resumeShapes-container {
       margin-left: 55px;
