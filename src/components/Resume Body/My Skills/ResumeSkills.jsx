@@ -4,7 +4,7 @@ function ResumeSkills() {
   const skillsTitle = 'Skills'
 
   return (
-    <div className="resume-skills__container" id="skills">
+    <div className="resume-skills__container"  id="skills">
       <div className="resume-skills__text-container">
         <div className="resume-skills__title">{skillsTitle}</div>
         <br />

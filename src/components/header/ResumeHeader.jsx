@@ -2,7 +2,7 @@ import React from "react";
 import "./ResumeHeader.css";
 import ResumeShapes from "./ResumeShapes";
 
-function resumeHeader() {
+function ResumeHeader() {
   const fName = "mar";
   return (
     <div className="resume-container__header" id='navbar'>
@@ -19,4 +19,4 @@ function resumeHeader() {
   );
 }
 
-export default resumeHeader;
+export default ResumeHeader;

@@ -4,7 +4,7 @@ function ResumeAbout() {
   const aboutMeTitle = 'About me'
 
   return (
-    <div className="resume-about__container" id="aboutMe">
+    <div  className="resume-about__container" id="about">
       <div className="resume-about__image">
         <div></div>
       </div>
@@ -13,7 +13,7 @@ function ResumeAbout() {
         <br />
         <br />
         <div className="resume-about__text">
-          I'm a junior Full Stack Web Developer located in Romania. I have
+          I'm a Full Stack Web Developer located in Romania. I have
           serious passion for entire web development spectrum and working
           everyday to get better.
         </div>
