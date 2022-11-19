@@ -2,6 +2,8 @@
   background-color: rgb(2, 2, 2);
   height: 77px;
   position: fixed;
+  top: 0px;
+  left: 0px;
   width: 100%;
   z-index: 1;
 }

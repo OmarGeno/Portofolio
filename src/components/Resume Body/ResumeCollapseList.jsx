@@ -11,7 +11,7 @@ function ResumeCollapseList() {
     <div className="resume-collapse__container-list">
       <div className="resume-collapse__list">
         <div className="logo-container">
-          <a href="#navbar">
+          <a href="/">
             <div className="logo-icon">
               <div></div>
             </div>
@@ -19,13 +19,13 @@ function ResumeCollapseList() {
         </div>
         <div className="resume-collapse__nav">
           <div>
-            <a href="#aboutMe">{omar.about}</a>
+            <a href="/about">{omar.about}</a>
           </div>
           <div>
-            <a href="#skills">{omar.skills}</a>
+            <a href="/skills">{omar.skills}</a>
           </div>
           <div>
-            <a href="#contact">{omar.contact}</a>
+            <a href="/contact">{omar.contact}</a>
           </div>
         </div>
         <div className="icon-container">
