@@ -27,7 +27,6 @@
 
 .resume-skills__text-container {
   width: 912px;
-  /* width: 50%; */
 }
 
 .resume-skills__title {
@@ -65,6 +64,14 @@
   }
   .resume-skills__text-container {
     width: 100%;
+  }
+  .resume-skills__text > pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
   }
 }
 

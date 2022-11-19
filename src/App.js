@@ -2,6 +2,7 @@ import "./App.css";
 import ResumeHeader from "./components/header/ResumeHeader.jsx";
 import ResumeContact from "./components/Resume Body/Contact/ResumeContact";
 import ResumeSkills from "./components/Resume Body/My Skills/ResumeSkills";
+import ResumeProjects from "./components/Resume Body/Projects/ResumeProjects";
 import ResumeAbout from "./components/Resume Body/Resume About me/ResumeAbout";
 import ResumeCollapseList from "./components/Resume Body/ResumeCollapseList";
 
@@ -60,6 +61,9 @@ function App() {
         </div>
         <div>
           <ResumeSkills />
+        </div>
+        <div>
+          <ResumeProjects />
         </div>
         <div>
           <ResumeContact contact={getFromInfo} />
