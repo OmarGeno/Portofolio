@@ -41,7 +41,7 @@ function ResumeForm(props) {
 
   return (
     <div>
-      <form action="https://getform.io/f/52db547e-ecde-4a3d-9d8e-6d84e9c42638" method="POST" onSubmit={submitHandler}>
+      <form action="https://getform.io/f/52db547e-ecde-4a3d-9d8e-6d84e9c42638" method="POST" >
         <div className="resume-contact__container">
           <div className="resume-contact__name">
             <input
@@ -79,7 +79,7 @@ function ResumeForm(props) {
             ></textarea>
           </div>
           <div className="resume-form__submit">
-            <button type="submit">Send message!</button>
+            <button type="submit" onSubmit={submitHandler}>Send message!</button>
           </div>
         </div>
       </form>
