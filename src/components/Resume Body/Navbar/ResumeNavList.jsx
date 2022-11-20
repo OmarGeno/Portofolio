@@ -12,17 +12,17 @@ function ResumeNavList() {
   return (
     <div className="resume-collapse__nav">
     <div>
-      <Link to="about" smooth={true} offset={50} duration={500}>
+      <Link to="about" smooth={+true} offset={50} duration={500}>
         {omar.about}
       </Link>
     </div>
     <div>
-      <Link to="skills" smooth={true} offset={50} duration={500}>
+      <Link to="skills" smooth={+true} offset={50} duration={500}>
         {omar.skills}
       </Link>
     </div>
     <div>
-      <Link to="contact" smooth={true} offset={50} duration={500}>
+      <Link to="contact" smooth={+true} offset={50} duration={500}>
         {omar.contact}
       </Link>
     </div>
