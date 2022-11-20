@@ -39,7 +39,7 @@ function App() {
         />
         <Route path="/about" element={<ResumeAbout />} />
         <Route path="/skills" element={<ResumeSkills />} />
-        <Route path="/project" element={<ResumeProjects />} />
+        <Route path="/projects" element={<ResumeProjects />} />
         <Route
           path="/contact"
           element={<ResumeContact contact={getFromInfo} />}

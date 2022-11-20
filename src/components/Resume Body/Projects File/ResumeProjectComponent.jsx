@@ -4,7 +4,7 @@ function ResumeProjectComponent(props) {
   return (
     <div className="resume-component__container">
       <div className="resume-component__image">
-        <a href={props.link} target="_blank" rel='noreferrer'>
+        <a href={props.link} >
           <img src={props.image} alt=""/>
         </a>
       </div>

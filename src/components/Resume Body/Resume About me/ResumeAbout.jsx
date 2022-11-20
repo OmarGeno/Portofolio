@@ -4,7 +4,7 @@ function ResumeAbout() {
   const aboutMeTitle = 'About me'
 
   return (
-    <div  className="resume-about__container" id="about">
+    <div  className="resume-about__container" >
       <div className="resume-about__image">
         <div></div>
       </div>

@@ -56,7 +56,7 @@ function ResumeProjects() {
 
   return (
     <>
-      <div className="container">
+      <div className="container" id='project'>
         <ResumeProjectHeader />
         <div className="resume-projects__container">
           {cardImages.map((item) => (
