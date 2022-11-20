@@ -2,10 +2,17 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(80%, 1fr));
   gap: 10px;
-  width: 50%;
+  width: 60%;
   height: auto;
-  margin: 0px auto;
+  margin: 60px auto;
 }
+.resume-single__container-mini {
+  width: 100%;
+  box-shadow: 0px 0px 5px 10px rgba(95, 187, 126, 0.122);
+  background-color: rgb(147, 144, 144);
+  position: relative;
+}
+
 .resume-single__title {
   margin: 100px 0px 0px 0px;
   font-family: "Righteous", cursive;
@@ -20,11 +27,11 @@
   padding: 15px 30px;
 }
 .resume-single__text > span > a:hover {
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   color: rgb(95, 187, 126);
 }
 .resume-single__text > a:hover {
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   color: rgb(95, 187, 126);
 }
 
@@ -36,8 +43,8 @@
   border-style: solid;
   border-image: linear-gradient(
       to bottom,
-      rgb(8, 214, 18),
-      rgba(0, 0, 0, 0)
+      rgb(214, 8, 8),
+      rgba(95, 187, 126, 0.122)
     )
     1 100%;
 }
@@ -58,7 +65,6 @@
   }
 }
 
-  
 @media screen and (max-width: 640px) {
   .resume-single__title {
     font-size: 3rem !important;
@@ -75,7 +81,7 @@
 @media screen and (max-width: 992px) {
   .resume-single__title {
     font-size: 2.7rem !important;
-    margin-left: 50px ;
+    margin-left: 50px;
   }
   .resume-single__text {
     margin-left: 15px !important;

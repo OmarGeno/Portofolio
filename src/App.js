@@ -26,7 +26,17 @@ function App() {
       <ResumeCollapseList />
 
       <Routes>
-        <Route path="/" element={<ResumeHeader />} />
+        <Route
+          path="/"
+          element={
+            <>
+              <ResumeHeader />
+              <ResumeAbout />
+              <ResumeProjects />
+              <ResumeContact contact={getFromInfo} />
+            </>
+          }
+        />
         <Route path="/about" element={<ResumeAbout />} />
         <Route path="/skills" element={<ResumeSkills />} />
         <Route path="/projects" element={<ResumeProjects />} />
@@ -40,9 +50,9 @@ function App() {
         <Route path="/campus" element={<Campus />} />
         <Route path="/expense" element={<Expense />} />
         <Route path="/cards-intro" element={<BussinessCards />} />
-        <Route path="/cards-intro" element={<Valorant />} />
-        <Route path="/cards-intro" element={<Coffee />} />
-        <Route path="/cards-intro" element={<ResumeCards />} />
+        <Route path="/valorant" element={<Valorant />} />
+        <Route path="/coffee" element={<Coffee />} />
+        <Route path="/angular-card" element={<ResumeCards />} />
       </Routes>
     </div>
   );

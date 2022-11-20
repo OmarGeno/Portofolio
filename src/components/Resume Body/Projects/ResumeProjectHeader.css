@@ -1,51 +1,50 @@
 .container {
-    margin: 100px 0px 0px 0px;
+  margin: 100px 0px 0px 0px;
 }
 .resume-project__container {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    margin: 40px auto;
-  }
-  
-  .resume-project__text-container {
-    width: 912px;
-  }
-  
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 40px auto;
+}
+
+.resume-project__text-container {
+  width: 912px;
+}
+
+.resume-project__title {
+  font-family: "Righteous", cursive;
+  color: rgb(95, 187, 126);
+  font-size: 5rem;
+  margin-left: 100px;
+}
+
+.resume-project__text {
+  margin-left: 70px;
+  font-size: 17px;
+  word-spacing: 2px;
+  padding: 15px 30px;
+}
+
+@media screen and (max-width: 640px) {
   .resume-project__title {
-    font-family: "Righteous", cursive;
-    color: rgb(95, 187, 126);
-    font-size: 5rem;
-    margin-left: 100px;
+    font-size: 3rem !important;
+    margin-left: 50px !important;
   }
-  
   .resume-project__text {
-    margin-left: 70px;
-    font-size: 17px;
-    word-spacing: 2px;
-    padding: 15px 30px;
+    margin-left: 15px !important;
   }
-  
-  
-  @media screen and (max-width: 640px) {
-    .resume-project__title {
-      font-size: 3rem !important;
-      margin-left: 50px !important;
-    }
-    .resume-project__text {
-      margin-left: 15px !important;
-    }
-    .resume-project__text-container {
-      width: 100%;
-    }
+  .resume-project__text-container {
+    width: 100%;
   }
-  
-  @media screen and (max-width: 992px) {
-    .resume-project__title {
-      font-size: 2.7rem !important;
-      margin-left: 50px ;
-    }
-    .resume-project__text {
-      margin-left: 15px !important;
-    }
+}
+
+@media screen and (max-width: 992px) {
+  .resume-project__title {
+    font-size: 2.7rem !important;
+    margin-left: 50px;
   }
+  .resume-project__text {
+    margin-left: 15px !important;
+  }
+}
