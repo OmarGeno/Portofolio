@@ -32,7 +32,7 @@ function App() {
             <>
               <ResumeHeader />
               <ResumeAbout />
-              {/* <ResumeProjects /> */}
+              <ResumeSkills />
               <ResumeContact contact={getFromInfo} />
             </>
           }
