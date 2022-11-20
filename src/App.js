@@ -3,17 +3,17 @@ import "./App.css";
 import ResumeHeader from "./components/header/ResumeHeader.jsx";
 import ResumeContact from "./components/Resume Body/Contact/ResumeContact";
 import ResumeSkills from "./components/Resume Body/My Skills/ResumeSkills";
-import ResumeProjects from "./components/Resume Body/Projects/ResumeProjects";
-import TicTac from "./components/Resume Body/Projects/Single Project/TicTac";
+import ResumeProjects from "./components/Resume Body/Projects File/ResumeProjects";
+import TicTac from "./components/Resume Body/Projects File/Single Project/TicTac";
 import ResumeAbout from "./components/Resume Body/Resume About me/ResumeAbout";
 import ResumeCollapseList from "./components/Resume Body/Navbar/ResumeCollapseList";
-import Arcane from "./components/Resume Body/Projects/Single Project/Arcane";
-import Campus from "./components/Resume Body/Projects/Single Project/Campus";
-import Expense from "./components/Resume Body/Projects/Single Project/Expense";
-import BussinessCards from "./components/Resume Body/Projects/Single Project/BussinessCards";
-import Valorant from "./components/Resume Body/Projects/Single Project/Valorant";
-import Coffee from "./components/Resume Body/Projects/Single Project/Coffee";
-import ResumeCards from "./components/Resume Body/Projects/Single Project/ResumeCards";
+import Arcane from "./components/Resume Body/Projects File/Single Project/Arcane";
+import Campus from "./components/Resume Body/Projects File/Single Project/Campus";
+import Expense from "./components/Resume Body/Projects File/Single Project/Expense";
+import BussinessCards from "./components/Resume Body/Projects File/Single Project/BussinessCards";
+import Valorant from "./components/Resume Body/Projects File/Single Project/Valorant";
+import Coffee from "./components/Resume Body/Projects File/Single Project/Coffee";
+import ResumeCards from "./components/Resume Body/Projects File/Single Project/ResumeCards";
 
 function App() {
   const getFromInfo = (contactInfo) => {
