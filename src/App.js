@@ -32,27 +32,27 @@ function App() {
             <>
               <ResumeHeader />
               <ResumeAbout />
-              <ResumeProjects />
+              {/* <ResumeProjects /> */}
               <ResumeContact contact={getFromInfo} />
             </>
           }
         />
-        <Route path="/about" element={<ResumeAbout />} />
-        <Route path="/skills" element={<ResumeSkills />} />
-        <Route path="/projects" element={<ResumeProjects />} />
+        <Route path="about" element={<ResumeAbout />} />
+        <Route path="skills" element={<ResumeSkills />} />
+        <Route path="projects/*" element={<ResumeProjects />}>
+          <Route path="tic-tac" element={<TicTac />} />
+          <Route path="arcane" element={<Arcane />} />
+          <Route path="campus" element={<Campus />} />
+          <Route path="expense" element={<Expense />} />
+          <Route path="cards-intro" element={<BussinessCards />} />
+          <Route path="valorant" element={<Valorant />} />
+          <Route path="coffee" element={<Coffee />} />
+          <Route path="angular-card" element={<ResumeCards />} />
+        </Route>
         <Route
-          path="/contact"
+          path="contact"
           element={<ResumeContact contact={getFromInfo} />}
         />
-
-        <Route path="/tic-tac" element={<TicTac />} />
-        <Route path="/arcane" element={<Arcane />} />
-        <Route path="/campus" element={<Campus />} />
-        <Route path="/expense" element={<Expense />} />
-        <Route path="/cards-intro" element={<BussinessCards />} />
-        <Route path="/valorant" element={<Valorant />} />
-        <Route path="/coffee" element={<Coffee />} />
-        <Route path="/angular-card" element={<ResumeCards />} />
       </Routes>
     </div>
   );

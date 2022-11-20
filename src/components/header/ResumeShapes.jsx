@@ -1,14 +1,17 @@
-import { Link } from "react-scroll"
+import { Link, Outlet } from "react-router-dom"
 import "./ResumeShapes.css"
 
 function ResumeShapes() {
   return (
-    <div className="resumeShapes-container">
-        <div className="resumeShapes-container__circle"></div>
-        <div className="projects">
-            <Link className="projects" to="projects" smooth={+true} offset={-150} duration={500}>Projects</Link>
-        </div>
-    </div>
+    <>
+      <div className="resumeShapes-container">
+          <div className="resumeShapes-container__circle"></div>
+          <div className="projects">
+              <Link to="/projects" className="projects">Projects</Link>
+          </div>
+      </div>
+      <Outlet />
+    </>
   )
 }
 
