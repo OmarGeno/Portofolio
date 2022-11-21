@@ -1,5 +1,6 @@
 import "./ResumeContact.css";
 import ResumeForm from "./ResumeForm";
+import { motion } from "framer-motion";
 
 function ResumeContact(props) {
   const intro =
@@ -16,7 +17,9 @@ function ResumeContact(props) {
   };
 
   return (
-    <div className="resume-contact__container-main" id="contact">
+    <motion.div className="resume-contact__container-main" id="contact" initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}>
       <div className="resume-contact__form">
         <div className="resume-form__font">{contactMe}</div>
         <br />
@@ -29,7 +32,7 @@ function ResumeContact(props) {
       <div className="resume-contact__image">
         <div></div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

@@ -17,7 +17,7 @@ function TicTac() {
       </div>
       <span className="resume-single__text">
         <a href="projects" rel="">
-          Back to projects
+          
         </a>
       </span>
       <br />

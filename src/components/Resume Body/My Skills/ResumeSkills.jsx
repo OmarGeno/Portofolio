@@ -1,10 +1,11 @@
 import './ResumeSkills.css'
+import { motion } from 'framer-motion'
 
 function ResumeSkills() {
   const skillsTitle = 'Skills'
 
   return (
-    <div className="resume-skills__container"  id="skills">
+    <motion.div className="resume-skills__container"  id="skills" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
       <div className="resume-skills__text-container">
         <div className="resume-skills__title">{skillsTitle}</div>
         <br />
@@ -39,7 +40,7 @@ function ResumeSkills() {
       <div className="resume-skills__image">
         <div></div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

@@ -1,10 +1,11 @@
 import './ResumeAbout.css'
+import { motion } from 'framer-motion'
 
 function ResumeAbout() {
   const aboutMeTitle = 'About me'
 
   return (
-    <div  className="resume-about__container" >
+    <motion.div className="resume-about__container" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
       <div className="resume-about__image">
         <div></div>
       </div>
@@ -13,9 +14,9 @@ function ResumeAbout() {
         <br />
         <br />
         <div className="resume-about__text">
-          I'm a Full Stack Web Developer located in Romania. I have
-          serious passion for entire web development spectrum and working
-          everyday to get better.
+          I'm a Full Stack Web Developer located in Romania. I have serious
+          passion for entire web development spectrum and working everyday to
+          get better.
         </div>
         <div className="resume-about__text">
           I can describe my self as a well-organised person, problem solver,
@@ -26,7 +27,7 @@ function ResumeAbout() {
           Interested to fit in new projects with positive people.
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

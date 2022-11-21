@@ -2,6 +2,7 @@ import ResumeProjectComponent from './ResumeProjectComponent'
 import './ResumeProjectComponent.css'
 import ResumeProjectHeader from './ResumeProjectHeader'
 import { Outlet } from 'react-router-dom'
+import { motion } from 'framer-motion'
 
 function ResumeProjects() {
   const cardImages = [
@@ -57,7 +58,9 @@ function ResumeProjects() {
 
   return (
     <>
-      <div className="container" id='projects'>
+      <motion.div className="container" id='projects' initial={{ }}
+      animate={{  }}
+      exit={{  }}>
         <ResumeProjectHeader />
         <div className="resume-projects__container">
           {cardImages.map((item) => (
@@ -69,7 +72,7 @@ function ResumeProjects() {
             />
           ))}
         </div>
-      </div>
+      </motion.div>
       <Outlet />
     </>
   )

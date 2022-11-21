@@ -76,6 +76,14 @@
   .resume-single__text-container {
     width: 100%;
   }
+  .resume-single__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80%, 1fr));
+    gap: 10px;
+    width: 80%;
+    height: auto;
+    margin: 60px auto;
+  }
 }
 
 @media screen and (max-width: 992px) {
