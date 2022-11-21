@@ -164,6 +164,16 @@ div:hover > a {
   }
 }
 
+.resume-progress__bar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: rgb(0, 255, 0);
+  transform-origin: 0%;
+}
+
 @media screen and (min-width: 390px) {
   .resume-collapse__nav > div {
     font-size: 14px;

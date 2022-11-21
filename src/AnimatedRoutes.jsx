@@ -14,6 +14,7 @@ import Coffee from './components/Resume Body/Projects File/Single Project/Coffee
 import ResumeCards from './components/Resume Body/Projects File/Single Project/ResumeCards'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
+// import { ResumeProgressBar } from './components/Resume Body/Navbar/ResumeProgressBar.jsx'
 
 export const AnimatedRoutes = () => {
   const getFromInfo = (contactInfo) => {
@@ -23,49 +24,51 @@ export const AnimatedRoutes = () => {
 
   const location = useLocation()
   return (
-    <AnimatePresence>
-      <ResumeCollapseList />
-
-      <Routes location={location} key={location.pathname}>
-        <Route
-          path="/"
-          element={
-            <>
-              <ResumeHeader />
-              <ResumeAbout />
-              <ResumeSkills />
-              <ResumeContact contact={getFromInfo} />
-            </>
-          }
-        />
-        <Route
-          path="home"
-          element={
-            <>
-              <ResumeHeader />
-              <ResumeAbout />
-              <ResumeSkills />
-              <ResumeContact contact={getFromInfo} />
-            </>
-          }
-        />
-        <Route path="about" element={<ResumeAbout />} />
-        <Route path="skills" element={<ResumeSkills />} />
-        <Route path="projects/*" element={<ResumeProjects />}>
-          <Route path="tic-tac" element={<TicTac />} />
-          <Route path="arcane" element={<Arcane />} />
-          <Route path="campus" element={<Campus />} />
-          <Route path="expense" element={<Expense />} />
-          <Route path="cards-intro" element={<BussinessCards />} />
-          <Route path="valorant" element={<Valorant />} />
-          <Route path="coffee" element={<Coffee />} />
-          <Route path="angular-card" element={<ResumeCards />} />
-        </Route>
-        <Route
-          path="contact"
-          element={<ResumeContact contact={getFromInfo} />}
-        />
-      </Routes>
-    </AnimatePresence>
+    <>
+      <AnimatePresence>
+        <ResumeCollapseList />
+        {/* <ResumeProgressBar /> */}
+        <Routes location={location} key={location.pathname}>
+          <Route
+            path="/"
+            element={
+              <>
+                <ResumeHeader />
+                <ResumeAbout />
+                <ResumeSkills />
+                <ResumeContact contact={getFromInfo} />
+              </>
+            }
+          />
+          <Route
+            path="home"
+            element={
+              <>
+                <ResumeHeader />
+                <ResumeAbout />
+                <ResumeSkills />
+                <ResumeContact contact={getFromInfo} />
+              </>
+            }
+          />
+          <Route path="about" element={<ResumeAbout />} />
+          <Route path="skills" element={<ResumeSkills />} />
+          <Route path="projects/*" element={<ResumeProjects />}>
+            <Route path="tic-tac" element={<TicTac />} />
+            <Route path="arcane" element={<Arcane />} />
+            <Route path="campus" element={<Campus />} />
+            <Route path="expense" element={<Expense />} />
+            <Route path="cards-intro" element={<BussinessCards />} />
+            <Route path="valorant" element={<Valorant />} />
+            <Route path="coffee" element={<Coffee />} />
+            <Route path="angular-card" element={<ResumeCards />} />
+          </Route>
+          <Route
+            path="contact"
+            element={<ResumeContact contact={getFromInfo} />}
+          />
+        </Routes>
+      </AnimatePresence>
+    </>
   )
 }

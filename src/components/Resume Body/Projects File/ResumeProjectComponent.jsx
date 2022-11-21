@@ -5,7 +5,7 @@ function ResumeProjectComponent(props) {
   return (
     <div className="resume-component__container">
       <div className="resume-component__image">
-        <Link to={props.projectLink}>
+        <Link to={props.projectLink} >
           <img src={props.image} alt=""/>
         </Link>
       </div>
