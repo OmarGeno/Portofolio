@@ -98,6 +98,7 @@ div:hover > a {
 .logo-icon {
   width: 70px;
   height: 70px;
+  border-radius: 50%;
   background-image: url(../logo/cc811680b90d4473b7ead4cfee530c90.png);
   background-position: center;
   background-repeat: no-repeat;

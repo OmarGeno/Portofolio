@@ -38,6 +38,17 @@ export const AnimatedRoutes = () => {
             </>
           }
         />
+        <Route
+          path="home"
+          element={
+            <>
+              <ResumeHeader />
+              <ResumeAbout />
+              <ResumeSkills />
+              <ResumeContact contact={getFromInfo} />
+            </>
+          }
+        />
         <Route path="about" element={<ResumeAbout />} />
         <Route path="skills" element={<ResumeSkills />} />
         <Route path="projects/*" element={<ResumeProjects />}>

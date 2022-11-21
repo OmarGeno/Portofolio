@@ -18,13 +18,25 @@
   overflow: hidden;
   border-width: 3px;
   border-style: solid;
-  border-image: 
-    linear-gradient(
-      to bottom, 
-      rgb(214, 8, 8), 
-      rgba(49, 223, 18, 0.174)
-    ) 1 100%;
+  animation: projects 6s infinite alternate;
   cursor: pointer;
+}
+
+@keyframes projects {
+  0% {
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(6, 211, 2)) 1 10%;
+  }
+  33% {
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 151, 189)) 1
+      10%;
+  }
+  66% {
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(98, 13, 196)) 1
+      10%;
+  }
+  100% {
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(214, 8, 8)) 1 10%;
+  }
 }
 .resume-component__image > a > img {
   width: 100%;
@@ -41,7 +53,7 @@
   opacity: 0;
 }
 .resume-component__container:hover #cont {
-  transition: all .6s ease-in-out;
+  transition: all 0.6s ease-in-out;
   background-color: rgba(0, 0, 0, 0.7);
   opacity: 1;
 }
@@ -55,7 +67,7 @@
   font-weight: 600;
   letter-spacing: 2px;
 }
- @media screen and (max-width: 410px) {
+@media screen and (max-width: 410px) {
   .resume-projects__container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(121px, 1fr));
@@ -64,6 +76,4 @@
     height: auto;
     margin: 0px auto;
   }
- }
-
- 
+}
