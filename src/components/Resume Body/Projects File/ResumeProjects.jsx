@@ -59,8 +59,8 @@ function ResumeProjects() {
   return (
     <>
       <motion.div className="container" id='projects' initial={{ }}
-      animate={{  }}
-      exit={{  }}>
+      animate={{ }}
+      exit={{ }}>
         <ResumeProjectHeader />
         <div className="resume-projects__container">
           {cardImages.map((item) => (
