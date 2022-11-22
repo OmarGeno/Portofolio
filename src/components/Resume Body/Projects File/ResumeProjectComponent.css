@@ -1,0 +1,92 @@
+.resume-projects__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 10px;
+  width: 90%;
+  height: auto;
+  margin: 0px auto;
+}
+.resume-component__container {
+  width: 100%;
+  background-color: rgb(147, 144, 144);
+  position: relative;
+}
+
+.resume-component__image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-width: 3px;
+  border-style: solid;
+  animation: projects 6s infinite alternate;
+  cursor: pointer;
+}
+
+@keyframes projects {
+  0% {
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(6, 211, 2)) 1 10%;
+  }
+  33% {
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 151, 189)) 1
+      10%;
+  }
+  66% {
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(98, 13, 196)) 1
+      10%;
+  }
+  100% {
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(214, 8, 8)) 1 10%;
+  }
+}
+.resume-component__image > a > img {
+  width: 100%;
+  height: 100%;
+}
+
+.resume-component__card {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  padding: 20px;
+  text-align: center;
+  opacity: 0;
+}
+.resume-component__container:hover #cont {
+  transition: all 0.6s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+}
+.resume-component__image:hover img {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
+.resume-component__card > div > span {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 410px) {
+  .resume-projects__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(201px, 1fr));
+    gap: 10px;
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+  }
+  .resume-component__card > div > span {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .resume-component__card {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+  }
+}

@@ -1,0 +1,169 @@
+/*  FORM  */
+.resume-contact__name > input,
+.resume-contact__subject > input,
+.resume-contact__textarea > textarea {
+  background-color: rgb(43, 43, 43);
+  padding: 15px;
+  margin: 6px 3px 6px 3px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid rgb(95, 187, 126);
+}
+.resume-contact__name {
+  display: flex;
+  flex-flow: row;
+  width: 95%;
+}
+.resume-contact__textarea {
+  display: flex;
+  flex-flow: row;
+  width: 95%;
+}
+
+.resume-contact__message {
+  display: flex;
+  flex-flow: row;
+  width: 95%;
+}
+.resume-contact__name > input {
+  width: 100%;
+}
+
+.resume-contact__subject > input {
+  width: 94.3%;
+}
+
+.resume-contact__textarea > textarea {
+  width: 100%;
+  height: 150px;
+  resize: vertical;
+}
+
+::placeholder {
+  font-size: 16px;
+  color: rgb(139, 146, 152);
+  opacity: 1;
+}
+
+.resume-contact__container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.resume-form__submit {
+  display: flex;
+  justify-content: end;
+  width: 94.6%;
+  margin: 10px 6px 0 0px;
+}
+
+.resume-form__submit > button {
+  background-color: rgb(29, 29, 29);
+  color: rgb(95, 187, 126);
+  border: 1px solid rgb(95, 187, 126);
+  padding: 15px 30px;
+  letter-spacing: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.resume-form__submit > button:hover {
+  box-shadow: inset 300px 0px 100px 0px rgb(95, 187, 126);
+  color: rgb(0, 0, 0);
+  transition: all 0.5s ease-in-out;
+}
+
+/*  Contact  */
+
+.resume-form__font {
+  font-family: "Righteous", cursive;
+  color: rgb(95, 187, 126);
+  font-size: 5rem;
+  margin-left: 100px;
+}
+
+.font2 {
+  margin-left: 70px;
+  font-size: 17px;
+  word-spacing: 2px;
+  padding: 15px 30px;
+}
+
+.resume-contact__form {
+  color: white;
+}
+
+.resume-contact__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 70vh;
+}
+
+.resume-contact__image > div {
+  width: 80%;
+  height: 60vh;
+  opacity: 0.7;
+  background-image: url(https://img.freepik.com/free-vector/message-sent-concept-illustration_114360-3363.jpg?w=826&t=st=1668474276~exp=1668474876~hmac=7efbd9771a970be786ae6e9f009f349ad4aaa54a0e6f9cdf17575d51f9aa0bde);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px black;
+}
+
+.resume-contact__container-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 110px auto;
+}
+
+@media screen and (max-width: 640px) {
+    .resume-form__submit {
+      justify-content: center;
+      margin: 10px auto;
+    }
+    .resume-contact__container-main {
+      flex-wrap: wrap;
+    }
+    .resume-form__font {
+      font-size: 3rem !important;
+      margin-left: 50px !important;
+    }
+    .font2 {
+      margin-left: 15px !important;
+    }
+    .resume-contact__image   {
+      width: 90% !important;
+    }
+    .resume-contact__name > input {
+      width: 100%;
+    } 
+    
+  }
+  
+  @media screen and (max-width: 992px) {
+      .resume-form__submit {
+          justify-content: center;
+          margin: 10px auto;
+        }
+        .resume-form__font {
+          font-size: 2.7rem !important;
+          margin-left:50px !important;
+        }
+        .font2 {
+          margin-left: 15px !important;
+        }
+        .resume-contact__image   {
+          width: 100% !important;
+        }
+        .resume-contact__name > input {
+          width: 100%;
+        }  
+        .resume-contact__subject > input {
+          width: 93.5%;
+        }      
+  }

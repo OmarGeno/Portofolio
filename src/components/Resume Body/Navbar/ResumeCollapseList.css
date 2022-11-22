@@ -1,0 +1,232 @@
+.resume-collapse__container-list {
+  background-color: rgb(2, 2, 2);
+  height: 77px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+}
+.resume-collapse__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.resume-collapse__nav,
+.icon-container {
+  display: flex;
+}
+.icon-container {
+  width: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+.resume-collapse__nav > div {
+  font-size: 25px;
+  padding: 1.3rem 2rem;
+  font-weight: 1000;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+  line-height: 35px;
+  font-stretch: extra-expanded;
+  letter-spacing: 0.3rem;
+}
+a {
+  text-decoration: none;
+  color: rgb(95, 187, 181);
+}
+
+div:hover > a {
+  color: black;
+}
+
+.resume-collapse__nav > div:hover {
+  background-color: rgb(255, 255, 255);
+  font-size: 30px;
+  text-shadow: 1px 1px rgb(95, 187, 126);
+}
+
+.icon-tags:hover img {
+  transition: all .3s ease-in-out;
+  transform: scale(1.1);
+}
+
+.icon-tags > a > img {
+  width: 30px;
+  height: 30px;
+}
+
+.icon-tags {
+  margin-left: 15px;
+}
+
+.btn > img {
+  width: 30px;
+  height: 30px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(29, 29, 29);
+  color: rgb(95, 187, 126);
+  border: 1px solid rgb(95, 187, 126);
+  padding: 15px 30px;
+  letter-spacing: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.btn > a {
+  color: rgb(95, 187, 126);
+}
+
+.btn > img {
+  margin-right: 5px;
+}
+.btn:hover a {
+  color: black;
+}
+
+.btn:hover {
+  transition: all 0.5s ease-in-out;
+  box-shadow: rgb(95, 187, 126) inset 300px 0 0 0px;
+}
+
+.logo-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-image: url(../logo/cc811680b90d4473b7ead4cfee530c90.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.logo-container {
+  cursor: pointer;
+}
+.logo-container:hover {
+  transition: all .3s ease-in-out;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) {
+  .resume-collapse__nav > div {
+    font-size: 16px;
+    padding: 1.3rem 1rem;
+    letter-spacing: 0.1rem;
+  }
+  .resume-collapse__nav > div:hover {
+    font-size: 16px;
+  }
+  .resume-collapse__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .resume-collapse__nav > div:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 30px;
+    text-shadow: 1px 1px rgb(95, 187, 126);
+  }
+  .icon-tags {
+    transform: translateY(-200px);
+  }
+}
+
+@media screen and (max-width: 976px) {
+  .btn {
+    visibility: hidden;
+  }
+  .resume-collapse__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 390px) {
+  .resume-collapse__nav > div {
+    font-size: 12px;
+    padding: 1.3rem 0.5rem;
+    letter-spacing: 0.1rem;
+  }
+  .resume-collapse__nav > div:hover {
+    font-size: 13px;
+  }
+  .icon-tags > a > img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.resume-progress__bar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: rgb(0, 255, 0);
+  transform-origin: 0%;
+}
+
+@media screen and (min-width: 390px) {
+  .resume-collapse__nav > div {
+    font-size: 14px;
+    padding: 1.3rem 1rem;
+    letter-spacing: 0.1rem;
+  }
+  .resume-collapse__nav > div:hover {
+    font-size: 20px;
+  }
+  .icon-tags > a > img {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .resume-collapse__nav > div {
+    font-size: 20px;
+    padding: 1.3rem 2rem;
+  }
+  .resume-collapse__nav > div:hover {
+    font-size: 25px;
+  }
+  .icon-tags > a > img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .resume-collapse__nav > div {
+    color: rgb(95, 187, 181);
+    font-size: 25px;
+    padding: 1.3rem 2rem;
+    font-weight: 1000;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    line-height: 35px;
+    font-stretch: extra-expanded;
+    letter-spacing: 0.3rem;
+  }
+  .resume-collapse__nav > div:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 30px;
+    text-shadow: 1px 1px rgb(95, 187, 126);
+  }
+}
+@media screen and (max-width: 1400px) {
+  .btn {
+    height: 50px;
+    padding: 15px 15px;
+    letter-spacing: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 5px;
+  }
+}
