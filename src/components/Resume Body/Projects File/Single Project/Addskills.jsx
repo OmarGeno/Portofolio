@@ -1,14 +1,13 @@
 import './ResumeSingleProject.css'
-import first from './images/skill1.png'
-import second from './images/skill2.png'
-import third from './images/skill3.png'
-import fourth from './images/skill3.png'
+import first from './images/skill3.png'
+import second from './images/skilledit.png'
 import fifth from './images/skill4.png'
 import sixth from './images/skill5.png'
 import seventh from './images/skill6.png'
 import eighth from './images/skill7.png'
  
 export const Addskills = () => {
+  const imgs = [`${first}`, `${fifth}`, `${second}`, `${sixth}`, `${seventh}`, `${eighth}`];
   return (
     <div className="">
       <div className="resume-single__title">Skills board creater</div>
@@ -30,46 +29,15 @@ export const Addskills = () => {
       <br />
       <br />
       <div className="resume-single__container">
-        <div className="resume-single__container-mini">
-          <div className="resume-single__div-img">
-            <img src={first} alt="materialize" />
-          </div>
-        </div>
-        <div className="resume-single__container-mini">
-          <div className="resume-single__div-img">
-            <img src={second} alt="materialize" />
-          </div>
-        </div>
-        <div className="resume-single__container-mini">
-          <div className="resume-single__div-img">
-            <img src={third} alt="materialize" />
-          </div>
-        </div>
-        <div className="resume-single__container-mini">
-          <div className="resume-single__div-img">
-            <img src={fourth} alt="materialize" />
-          </div>
-        </div>
-        <div className="resume-single__container-mini">
-          <div className="resume-single__div-img">
-            <img src={fifth} alt="materialize" />
-          </div>
-        </div>
-        <div className="resume-single__container-mini">
-          <div className="resume-single__div-img">
-            <img src={sixth} alt="materialize" />
-          </div>
-        </div>
-        <div className="resume-single__container-mini">
-          <div className="resume-single__div-img">
-            <img src={seventh} alt="materialize" />
-          </div>
-        </div>
-        <div className="resume-single__container-mini">
-          <div className="resume-single__div-img">
-            <img src={eighth} alt="materialize" />
-          </div>
-        </div>
+        {
+          imgs.map((i) => 
+            <div className="resume-single__container-mini">
+              <div className="resume-single__div-img low-opacity">
+                <img src={i} alt="materialize " />
+              </div>
+            </div>
+          )
+        }
       </div>
     </div>
   )

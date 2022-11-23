@@ -5,6 +5,7 @@ import third from './images/valo3.png'
 import fourth from './images/valo4.png'
 
 function Valorant() {
+  const imgs = [`${first}`, `${second}`, `${third}`, `${fourth}`, ];
   return (
     <div className="">
       <div className="resume-single__title">Valorant</div>
@@ -27,26 +28,15 @@ function Valorant() {
       <br />
       <br />
       <div className="resume-single__container">
-        <div className="resume-single__container-mini">
-          <div className="resume-single__div-img">
-            <img src={first} alt="materialize" />
-          </div>
-        </div>
-        <div className="resume-single__container-mini">
-          <div className="resume-single__div-img">
-            <img src={second} alt="materialize" />
-          </div>
-        </div>
-        <div className="resume-single__container-mini">
-          <div className="resume-single__div-img">
-            <img src={third} alt="materialize" />
-          </div>
-        </div>
-        <div className="resume-single__container-mini">
-          <div className="resume-single__div-img">
-            <img src={fourth} alt="materialize" />
-          </div>
-        </div>
+      {
+          imgs.map((i) => 
+            <div className="resume-single__container-mini">
+              <div className="resume-single__div-img">
+                <img src={i} alt="materialize " />
+              </div>
+            </div>
+          )
+        }
       </div>
     </div>
   )

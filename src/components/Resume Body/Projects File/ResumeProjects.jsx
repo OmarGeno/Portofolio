@@ -3,15 +3,14 @@ import './ResumeProjectComponent.css'
 import ResumeProjectHeader from './ResumeProjectHeader'
 import { Outlet } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import skill from './Single Project/images/skill1.png'
 
 function ResumeProjects() {
   const cardImages = [
-    { 
+    {
       id: 1,
       image: 'https://i.ibb.co/jD6VHN9/tic-tac-toe.png',
       title: 'Tic-tac-toe with React',
-      link: "tic-tac",
+      link: 'tic-tac',
     },
     {
       id: 2,
@@ -51,23 +50,27 @@ function ResumeProjects() {
     },
     {
       id: 8,
-      image: 'https://i.ibb.co/8jFw7mn/angular.png',
-      title: 'Profile cards with Angular.ts',
-      link: 'angular-card',
+      image: 'https://i.ibb.co/WnLzS1V/skill3.png',
+      title: 'Skills using PHP & MySQL',
+      link: 'getSkill',
     },
     {
       id: 9,
-      image: {skill},
-      title: 'Skills using PHP & MySQL',
-      link: 'getSkill',
+      image: 'https://i.ibb.co/8jFw7mn/angular.png',
+      title: 'Profile cards with Angular.ts',
+      link: 'angular-card',
     },
   ]
 
   return (
     <>
-      <motion.div className="container" id='projects' initial={{ }}
-      animate={{ }}
-      exit={{ }}>
+      <motion.div
+        className="container"
+        id="projects"
+        initial={{}}
+        animate={{}}
+        exit={{}}
+      >
         <ResumeProjectHeader />
         <div className="resume-projects__container">
           {cardImages.map((item) => (

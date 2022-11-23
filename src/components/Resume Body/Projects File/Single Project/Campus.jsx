@@ -6,6 +6,7 @@ import fourth from './images/Materialize4.png'
 import fifth from './images/materialize5.png'
 
 function Campus() {
+  const imgs = [`${first}`, `${second}`, `${third}`, `${fourth}`, `${fifth}`,];
   return (
     <div className="">
       <div className="resume-single__title">Campus</div>
@@ -27,31 +28,15 @@ function Campus() {
       <br />
       <br />
       <div className="resume-single__container">
-        <div className="resume-single__container-mini">
-          <div className="resume-single__div-img">
-            <img src={first} alt="materialize" />
-          </div>
-        </div>
-        <div className="resume-single__container-mini">
-          <div className="resume-single__div-img">
-            <img src={second} alt="materialize" />
-          </div>
-        </div>
-        <div className="resume-single__container-mini">
-          <div className="resume-single__div-img">
-            <img src={third} alt="materialize" />
-          </div>
-        </div>
-        <div className="resume-single__container-mini">
-          <div className="resume-single__div-img">
-            <img src={fourth} alt="materialize" />
-          </div>
-        </div>
-        <div className="resume-single__container-mini">
-          <div className="resume-single__div-img">
-            <img src={fifth} alt="materialize" />
-          </div>
-        </div>
+      {
+          imgs.map((i) => 
+            <div className="resume-single__container-mini">
+              <div className="resume-single__div-img">
+                <img src={i} alt="materialize " />
+              </div>
+            </div>
+          )
+        }
       </div>
     </div>
   )
