@@ -54,6 +54,12 @@ function ResumeProjects() {
       title: 'Profile cards with Angular.ts',
       link: 'angular-card',
     },
+    {
+      id: 9,
+      image: 'https://i.ibb.co/8jFw7mn/angular.png',
+      title: 'Skills using PHP & MySQL',
+      link: 'getSkill',
+    },
   ]
 
   return (
