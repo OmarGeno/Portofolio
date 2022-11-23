@@ -10,12 +10,12 @@ export const Addskills = () => {
   const imgs = [`${first}`, `${fifth}`, `${second}`, `${sixth}`, `${seventh}`, `${eighth}`];
   return (
     <div className="">
-      <div className="resume-single__title">Skills board creater</div>
+      <div className="resume-single__title">Skills board creator</div>
       <br />
       <div className="resume-single__text">
-        This page was impelmented to let the user add his skills.This project can be nested within an apllication.{' '}
+        This page was impelmented to let the user add his skills. This project can be nested within an apllication.{' '}
         <span>
-          <a href="https://github.com/OmarGeno/My-Projects/tree/Master/React%20JS/Spotify%20Album">
+          <a href="https://github.com/OmarGeno/Add-skills">
             see project
           </a>
         </span>
