@@ -3,6 +3,7 @@ import './ResumeProjectComponent.css'
 import ResumeProjectHeader from './ResumeProjectHeader'
 import { Outlet } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import skill from './Single Project/images/skill1.png'
 
 function ResumeProjects() {
   const cardImages = [
@@ -56,7 +57,7 @@ function ResumeProjects() {
     },
     {
       id: 9,
-      image: 'https://i.ibb.co/8jFw7mn/angular.png',
+      image: {skill},
       title: 'Skills using PHP & MySQL',
       link: 'getSkill',
     },
