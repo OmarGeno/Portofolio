@@ -1,11 +1,11 @@
+import { PortofolioEffect } from '../../Letter Effect/PortofolioEffect';
 import './ResumeProjectHeader.css'
 
 function ResumeProjectHeader() {
-    const projectTitle = "Portofolio";
   return (
     <div className="resume-project__container" id="projects">
       <div className="resume-project__text-container">
-        <div className="resume-project__title">{projectTitle}</div>
+        <div className="resume-project__title"><PortofolioEffect /></div>
         <br />
         <br />
         <div className="resume-project__text">
