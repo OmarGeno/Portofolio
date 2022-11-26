@@ -1,13 +1,13 @@
 import './ResumeSkills.css'
 import { motion } from 'framer-motion'
+import { SkillEffect } from '../../Letter Effect/SkillEffect'
 
 function ResumeSkills() {
-  const skillsTitle = 'Skills'
 
   return (
     <motion.div className="resume-skills__container"  id="skills" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
       <div className="resume-skills__text-container">
-        <div className="resume-skills__title">{skillsTitle}</div>
+        <div className="resume-skills__title"><SkillEffect /></div>
         <br />
         <br />
         <div className="resume-skills__text">

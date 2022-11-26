@@ -31,6 +31,7 @@ export const TextSpan = ({ children }) => {
         }
       }}
       onAnimationComplete={() => setIsPlaying(false)}
+      className="text-span"
     >
       {children}
     </motion.span>

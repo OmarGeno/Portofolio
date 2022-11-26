@@ -1,5 +1,6 @@
 import './ResumeAbout.css'
 import { motion } from 'framer-motion'
+import { AboutEffect } from '../../Letter Effect/AboutEffect'
 
 function ResumeAbout() {
   const aboutMeTitle = 'About me'
@@ -10,7 +11,7 @@ function ResumeAbout() {
         <div></div>
       </div>
       <div className="resume-about__text-container">
-        <div className="resume-about__title">{aboutMeTitle}</div>
+        <div className="resume-about__title"><AboutEffect/></div>
         <br />
         <br />
         <div className="resume-about__text">

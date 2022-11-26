@@ -104,13 +104,21 @@ div:hover > a {
   background-repeat: no-repeat;
   background-size: contain;
 }
-
 .logo-container {
   cursor: pointer;
 }
 .logo-container:hover {
   transition: all .3s ease-in-out;
   transform: scale(1.1);
+}
+.resume-progress__bar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: rgb(0, 255, 0);
+  transform-origin: 0%;
 }
 
 @media screen and (max-width: 600px) {
@@ -157,21 +165,42 @@ div:hover > a {
   }
   .resume-collapse__nav > div:hover {
     font-size: 13px;
+    background-color: rgba(0, 0, 0, 0);
   }
   .icon-tags > a > img {
     width: 20px;
     height: 20px;
   }
 }
-
-.resume-progress__bar{
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background-color: rgb(0, 255, 0);
-  transform-origin: 0%;
+@media screen and (max-width: 300px) {
+  .resume-collapse__nav > div {
+    font-size: 10px;
+    padding: 1.3rem 0.5rem;
+    letter-spacing: 0.1rem;
+  }
+  .resume-collapse__nav > div:hover {
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .icon-tags > a > img {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media screen and (max-width: 270px) {
+  .resume-collapse__nav > div {
+    font-size: 7px;
+    padding: 1.3rem 0.5rem;
+    letter-spacing: 0.1rem;
+  }
+  .resume-collapse__nav > div:hover {
+    font-size: 7px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .icon-tags > a > img {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 @media screen and (min-width: 390px) {

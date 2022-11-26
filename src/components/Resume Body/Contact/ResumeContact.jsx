@@ -1,11 +1,11 @@
 import "./ResumeContact.css";
 import ResumeForm from "./ResumeForm";
 import { motion } from "framer-motion";
+import { ContactEffect } from '../../Letter Effect/ContactEffect'
 
 function ResumeContact(props) {
   const intro =
     "I'm interested in ambitious or large projects. However, if you have other requests or questions, don't hesitate to fill in the form below";
-  const contactMe = "Contact me";
 
   const formName = (setName) => {
     const contactInfos = {
@@ -21,7 +21,7 @@ function ResumeContact(props) {
     animate={{ opacity: 1 }}
     exit={{ opacity: 0 }}>
       <div className="resume-contact__form">
-        <div className="resume-form__font">{contactMe}</div>
+        <div className="resume-form__font"><ContactEffect /></div>
         <br />
         <br />
         <div className="font2">{intro}.</div>

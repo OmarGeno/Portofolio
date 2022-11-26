@@ -7,7 +7,6 @@
   align-items: center;
   flex-direction: column;
 }
-
 .resumeShapes-container__circle {
   width: 150px;
   height: 150px;
@@ -18,34 +17,34 @@
   border-style: solid;
   position: relative;
 }
-
 .projects {
   color: rgb(95, 187, 126);
-  font-size: 25px;
+  font-size: 30px !important;
   font-weight: bold;
-  margin-top: 35px;
+  margin-top: 50px !important;
   cursor: pointer;
   text-decoration: none;
   transition: all 0.2s;
+  font-weight: none !important;
 }
+
 .projects:hover {
   color: rgb(95, 187, 126) !important;
-  font-size: 27px;
+  font-size: 32px !important;
 }
 
 @keyframes shape {
   0% {
-    border-color:  rgb(95,187,126);
+    border-color: rgb(95, 187, 126);
     transform: rotate(0deg) scale(1.1);
   }
   50% {
     background-color: rgba(16, 98, 77, 0.615);
-    border-color:  rgba(78, 2, 159, 0.497);
+    border-color: rgba(78, 2, 159, 0.497);
     border-radius: 50%;
-    /* transform: scale(1.1); */
   }
   100% {
-    border-color: rgb(95,187,126) ;
+    border-color: rgb(95, 187, 126);
     transform: rotate(180deg) scale(1.1);
   }
 }
@@ -55,11 +54,11 @@
     height: 100px;
   }
   .projects {
-    font-size: 15px;
-    margin-top: 25px;
+    font-size: 23px !important;
+    margin-top: 25px !important;
   }
   .projects:hover {
-    font-size: 27px;
+    font-size: 25px;
   }
   .resumeShapes-container {
     margin-right: 55px;
@@ -79,7 +78,7 @@
     height: 125px;
   }
   .projects {
-    font-size: 20px;
+    font-size: 23px !important;
     margin-top: 25px;
   }
   .projects:hover {
@@ -126,12 +125,13 @@
     height: 200px;
   }
   .projects {
-    font-size: 25px;
-    margin-top: 35px;
+    font-size: 50px !important;
+    margin-top: 50px !important;
+    font-weight: none !important;
   }
   .projects:hover {
     color: rgb(95, 187, 126);
-    font-size: 27px;
+    font-size: 52px !important;
   }
   .resumeShapes-container {
     margin-right: 100px;
