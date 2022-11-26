@@ -4,12 +4,13 @@ import second from './images/materialize2.png'
 import third from './images/Materialize3.png'
 import fourth from './images/Materialize4.png'
 import fifth from './images/materialize5.png'
+import { CampusEffect } from '../../../Letter Effect/Project Effects/CampusEffect'
 
 function Campus() {
   const imgs = [`${first}`, `${second}`, `${third}`, `${fourth}`, `${fifth}`,];
   return (
     <div className="">
-      <div className="resume-single__title">Campus</div>
+      <div className="resume-single__title"><CampusEffect/></div>
       <br />
       <div className="resume-single__text">
         A campus page based on the framework Materialize.{' '}

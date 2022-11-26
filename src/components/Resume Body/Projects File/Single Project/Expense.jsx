@@ -1,10 +1,11 @@
 import './ResumeSingleProject.css'
 import first from './images/Expenseitem.png'
+import { ExpenseEffect } from '../../../Letter Effect/Project Effects/ExpenseEffect'
 
 function Expense() {
   return (
     <div className="">
-      <div className="resume-single__title">Expense item</div>
+      <div className="resume-single__title"><ExpenseEffect/></div>
       <br />
       <div className="resume-single__text">
         An expense item using the React.js library.

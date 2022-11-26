@@ -3,12 +3,13 @@ import first from './images/Valo1.png'
 import second from './images/Valo2.png'
 import third from './images/valo3.png'
 import fourth from './images/valo4.png'
+import { ValorantEffect } from '../../../Letter Effect/Project Effects/ValorantEffect'
 
 function Valorant() {
   const imgs = [`${first}`, `${second}`, `${third}`, `${fourth}`, ];
   return (
     <div className="">
-      <div className="resume-single__title">Valorant</div>
+      <div className="resume-single__title"><ValorantEffect/></div>
       <br />
       <div className="resume-single__text">
         Valorant is one of my favorite games, so I decided to make one of my

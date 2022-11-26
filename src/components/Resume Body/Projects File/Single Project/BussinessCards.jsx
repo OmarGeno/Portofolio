@@ -1,11 +1,12 @@
 import './ResumeSingleProject.css'
 import first from './images/angularcards.png'
 import second from './images/angularcards2.png'
+import { BussinessCardsEffect } from '../../../Letter Effect/Project Effects/BussinessCardsEffect'
 
 function BussinessCards() {
   return (
     <div className="">
-      <div className="resume-single__title">Business cards</div>
+      <div className="resume-single__title"><BussinessCardsEffect/></div>
       <br />
       <div className="resume-single__text">
         Those cards were made with Angular(Typescript). It had a filter feature

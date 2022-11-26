@@ -1,10 +1,11 @@
 import './ResumeSingleProject.css'
 import first from './images/angular.png'
+import { ResumeCardsEffect } from '../../../Letter Effect/Project Effects/ResumeCardsEffect'
 
 function ResumeCards() {
   return (
     <div className="">
-      <div className="resume-single__title">Resume Cards</div>
+      <div className="resume-single__title"><ResumeCardsEffect/></div>
       <br />
       <div className="resume-single__text">
         The purpose of those cards is to serve as a minimum resume information

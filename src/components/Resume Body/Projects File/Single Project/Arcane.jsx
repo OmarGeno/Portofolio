@@ -1,11 +1,12 @@
 import './ResumeSingleProject.css'
 import first from './images/spotify.png'
 import second from './images/spotify2.png'
+import { ArcaneEffect } from '../../../Letter Effect/Project Effects/ArcaneEffect'
 
 function Arcane() {
   return (
     <div className="">
-      <div className="resume-single__title">Arcane album</div>
+      <div className="resume-single__title"><ArcaneEffect /></div>
       <br />
       <div className="resume-single__text">
         Spotify page clone using the React.js library.{' '}

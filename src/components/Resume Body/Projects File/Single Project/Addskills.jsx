@@ -5,12 +5,13 @@ import fifth from './images/skill4.png'
 import sixth from './images/skill5.png'
 import seventh from './images/skill6.png'
 import eighth from './images/skill7.png'
+import { AddskillsEffect } from '../../../Letter Effect/Project Effects/AddskillsEffect'
  
 export const Addskills = () => {
   const imgs = [`${first}`, `${fifth}`, `${second}`, `${sixth}`, `${seventh}`, `${eighth}`];
   return (
     <div className="">
-      <div className="resume-single__title">Skills board creator</div>
+      <div className="resume-single__title"><AddskillsEffect /></div>
       <br />
       <div className="resume-single__text">
         This page was impelmented to let the user add his skills. This project can be nested within an apllication.{' '}

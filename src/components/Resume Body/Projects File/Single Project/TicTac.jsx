@@ -1,11 +1,12 @@
 import './ResumeSingleProject.css'
 import first from './images/tictactoe.png'
 import second from './images/sss.png'
+import { TicTacEffect } from '../../../Letter Effect/Project Effects/TicTacEffect'
 
 function TicTac() {
   return (
     <div className="">
-      <div className="resume-single__title">Tic-Tac-Toe</div>
+      <div className="resume-single__title"><TicTacEffect/></div>
       <br />
       <div className="resume-single__text">
         The tic-tac-toe game application using the ReactJS library.{' '}

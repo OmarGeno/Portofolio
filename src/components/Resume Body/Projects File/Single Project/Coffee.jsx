@@ -1,11 +1,12 @@
 import './ResumeSingleProject.css'
 import first from './images/coffee2.png'
 import second from './images/coffe1.png'
+import { CoffeeEffect } from '../../../Letter Effect/Project Effects/CoffeeEffect'
 
 function Coffee() {
   return (
     <div className="">
-      <div className="resume-single__title">Coffee Shops</div>
+      <div className="resume-single__title"><CoffeeEffect/></div>
       <br />
       <div className="resume-single__text">
         This page was made using Materialize. Project preview below.
