@@ -1,6 +1,6 @@
-import './LetterEffect.css'
-import '../header/ResumeHeader.css'
-import { TextSpan } from './TextSpan'
+import '../LetterEffect.css'
+import '../../header/ResumeHeader.css'
+import { TextSpan } from '../TextSpan'
 
 export const ExpenseEffect = () => {
   const sentence = 'Expense item'.split('');

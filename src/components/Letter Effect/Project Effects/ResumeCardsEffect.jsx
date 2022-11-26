@@ -1,7 +1,6 @@
-import './LetterEffect.css'
-import '../header/ResumeHeader.css'
-import { TextSpan } from './TextSpan'
-
+import '../LetterEffect.css'
+import '../../header/ResumeHeader.css'
+import { TextSpan } from '../TextSpan'
 export const ResumeCardsEffect = () => {
   const sentence = 'Resume Cards'.split('');
 

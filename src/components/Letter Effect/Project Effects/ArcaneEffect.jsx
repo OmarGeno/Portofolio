@@ -1,6 +1,6 @@
-import './LetterEffect.css'
-import '../header/ResumeHeader.css'
-import { TextSpan } from './TextSpan'
+import '../LetterEffect.css'
+import '../../header/ResumeHeader.css'
+import { TextSpan } from '../TextSpan'
 
 export const ArcaneEffect = () => {
   const sentence = 'Arcane album'.split('');
