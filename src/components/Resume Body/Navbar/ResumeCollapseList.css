@@ -31,6 +31,16 @@
   font-stretch: extra-expanded;
   letter-spacing: 0.3rem;
 }
+.links-nav {
+  font-size: 25px;
+  padding: 1.2rem;
+  font-weight: 1000;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+  line-height: 30px;
+  font-stretch: extra-expanded;
+  letter-spacing: 0.3rem;
+}
 a {
   text-decoration: none;
   color: rgb(95, 187, 181);
@@ -163,6 +173,11 @@ div:hover > a {
     padding: 1.3rem 0.5rem;
     letter-spacing: 0.1rem;
   }
+  .links-nav {
+    font-size: 12px;
+    padding: 1.2rem 0rem;
+    letter-spacing: 0.1rem;
+  }
   .resume-collapse__nav > div:hover {
     font-size: 13px;
     background-color: rgba(0, 0, 0, 0);
@@ -177,6 +192,10 @@ div:hover > a {
     font-size: 10px;
     padding: 1.3rem 0.5rem;
     letter-spacing: 0.1rem;
+  }
+  .links-nav {
+    font-size: 10px;
+    padding: 1.2rem 0rem;
   }
   .resume-collapse__nav > div:hover {
     font-size: 10px;
@@ -201,6 +220,10 @@ div:hover > a {
     width: 20px;
     height: 20px;
   }
+  .links-nav {
+    font-size: 7px;
+    padding: 0rem 0rem;
+  }
 }
 
 @media screen and (min-width: 390px) {
@@ -216,6 +239,11 @@ div:hover > a {
     width: 20px;
     height: 20px;
   }
+  .links-nav {
+    font-size: 14px;
+    padding: 1.2rem 0rem;
+    letter-spacing: 0.1rem;
+  }
 }
 @media screen and (min-width: 768px) {
   .resume-collapse__nav > div {
@@ -228,6 +256,11 @@ div:hover > a {
   .icon-tags > a > img {
     width: 30px;
     height: 30px;
+  }
+  .links-nav {
+    font-size: 20px;
+    padding: 1.2rem 0rem;
+    letter-spacing: 0rem;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -247,6 +280,16 @@ div:hover > a {
     color: black;
     font-size: 30px;
     text-shadow: 1px 1px rgb(95, 187, 126);
+  }
+  .links-nav {
+    font-size: 25px;
+    padding: 1.2rem 0rem;
+    font-weight: 1000;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    line-height: 30px;
+    font-stretch: extra-expanded;
+    letter-spacing: 0.3rem;
   }
 }
 @media screen and (max-width: 1400px) {
