@@ -3,7 +3,7 @@ import first from './images/angularcards.png'
 import second from './images/angularcards2.png'
 import { BussinessCardsEffect } from '../../../Letter Effect/Project Effects/BussinessCardsEffect'
 
-function BussinessCards() {
+const BussinessCards = () => {
   return (
     <div className="">
       <div className="resume-single__title"><BussinessCardsEffect/></div>

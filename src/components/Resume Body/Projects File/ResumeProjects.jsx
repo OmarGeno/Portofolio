@@ -4,7 +4,7 @@ import ResumeProjectHeader from './ResumeProjectHeader'
 import { Outlet } from 'react-router-dom'
 import { motion } from 'framer-motion'
 
-function ResumeProjects() {
+const ResumeProjects = () => {
   const cardImages = [
     {
       id: 1,

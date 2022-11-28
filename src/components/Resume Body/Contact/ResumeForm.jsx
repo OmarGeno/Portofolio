@@ -1,7 +1,7 @@
 import "./ResumeContact.css";
 import { useState } from "react";
 
-function ResumeForm(props) {
+const ResumeForm = (props) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");

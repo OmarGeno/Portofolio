@@ -2,9 +2,7 @@ import './ResumeAbout.css'
 import { motion } from 'framer-motion'
 import { AboutEffect } from '../../Letter Effect/AboutEffect'
 
-function ResumeAbout() {
-  const aboutMeTitle = 'About me'
-
+const ResumeAbout = () => {
   return (
     <motion.div className="resume-about__container" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
       <div className="resume-about__image">

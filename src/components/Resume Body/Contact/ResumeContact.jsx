@@ -3,7 +3,7 @@ import ResumeForm from "./ResumeForm";
 import { motion } from "framer-motion";
 import { ContactEffect } from '../../Letter Effect/ContactEffect'
 
-function ResumeContact(props) {
+const ResumeContact = (props) => {
   const intro =
     "I'm interested in ambitious or large projects. However, if you have other requests or questions, don't hesitate to fill in the form below";
 

@@ -4,7 +4,7 @@ import ResumeShapes from "./ResumeShapes";
 import { motion } from "framer-motion";
 import { LetterEffect } from "../Letter Effect/LetterEffect";
 
-function ResumeHeader() {
+const ResumeHeader = () => {
   return (
     <motion.div className="resume-container__header" id='navbar' initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}

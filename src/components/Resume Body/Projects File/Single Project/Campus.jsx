@@ -6,7 +6,7 @@ import fourth from './images/Materialize4.png'
 import fifth from './images/materialize5.png'
 import { CampusEffect } from '../../../Letter Effect/Project Effects/CampusEffect'
 
-function Campus() {
+const Campus = () => {
   const imgs = [`${first}`, `${second}`, `${third}`, `${fourth}`, `${fifth}`,];
   return (
     <div className="">

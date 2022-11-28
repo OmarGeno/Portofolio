@@ -1,6 +1,6 @@
 import './ResumeCollapseList.css'
 
-function ResumeIconList() {
+const ResumeIconList= () => {
   return (
     <div className="icon-container">
     <div className="icon-tags">

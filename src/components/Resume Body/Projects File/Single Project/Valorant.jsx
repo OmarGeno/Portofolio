@@ -5,7 +5,7 @@ import third from './images/valo3.png'
 import fourth from './images/valo4.png'
 import { ValorantEffect } from '../../../Letter Effect/Project Effects/ValorantEffect'
 
-function Valorant() {
+const Valorant = () => {
   const imgs = [`${first}`, `${second}`, `${third}`, `${fourth}`, ];
   return (
     <div className="">

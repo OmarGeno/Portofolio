@@ -4,7 +4,7 @@ import ResumeIconList from './ResumeIconList'
 import ResumeNavList from './ResumeNavList'
 
 
-function ResumeCollapseList() {
+const ResumeCollapseList = () => {
   
   return (
     <div className="resume-collapse__container-list">

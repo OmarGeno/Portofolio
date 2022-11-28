@@ -3,7 +3,7 @@ import first from './images/coffee2.png'
 import second from './images/coffe1.png'
 import { CoffeeEffect } from '../../../Letter Effect/Project Effects/CoffeeEffect'
 
-function Coffee() {
+const Coffee = () => {
   return (
     <div className="">
       <div className="resume-single__title"><CoffeeEffect/></div>

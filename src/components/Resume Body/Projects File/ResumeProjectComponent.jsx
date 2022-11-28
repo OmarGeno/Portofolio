@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import './ResumeProjectComponent.css'
 
-function ResumeProjectComponent(props) {
+const ResumeProjectComponent = (props) => {
   return (
     <div className="resume-component__container">
       <div className="resume-component__image">

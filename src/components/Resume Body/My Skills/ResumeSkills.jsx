@@ -2,7 +2,7 @@ import './ResumeSkills.css'
 import { motion } from 'framer-motion'
 import { SkillEffect } from '../../Letter Effect/SkillEffect'
 
-function ResumeSkills() {
+const ResumeSkills = () => {
 
   return (
     <motion.div className="resume-skills__container"  id="skills" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>

@@ -3,7 +3,7 @@ import first from './images/tictactoe.png'
 import second from './images/sss.png'
 import { TicTacEffect } from '../../../Letter Effect/Project Effects/TicTacEffect'
 
-function TicTac() {
+const TicTac = () => {
   return (
     <div className="">
       <div className="resume-single__title"><TicTacEffect/></div>

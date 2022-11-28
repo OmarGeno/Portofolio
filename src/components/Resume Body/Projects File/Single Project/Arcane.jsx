@@ -3,7 +3,7 @@ import first from './images/spotify.png'
 import second from './images/spotify2.png'
 import { ArcaneEffect } from '../../../Letter Effect/Project Effects/ArcaneEffect'
 
-function Arcane() {
+const Arcane = () => {
   return (
     <div className="">
       <div className="resume-single__title"><ArcaneEffect /></div>

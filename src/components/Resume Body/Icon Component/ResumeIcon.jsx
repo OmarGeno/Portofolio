@@ -1,6 +1,6 @@
 import "./ResumeIcon.css";
 
-function ResumeIcon(props) {
+const ResumeIcon = (props) => {
   return (
     <div className="resume-icon__container">
       <div>

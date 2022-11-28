@@ -2,7 +2,7 @@ import { Link, Outlet } from 'react-router-dom'
 import { ProjectsEffect } from '../Letter Effect/ProjectsEffect'
 import './ResumeShapes.css'
 
-function ResumeShapes() {
+const ResumeShapes = () => {
   return (
     <>
       <div className="resumeShapes-container">

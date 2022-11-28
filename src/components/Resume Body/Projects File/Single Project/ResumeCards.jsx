@@ -2,7 +2,7 @@ import './ResumeSingleProject.css'
 import first from './images/angular.png'
 import { ResumeCardsEffect } from '../../../Letter Effect/Project Effects/ResumeCardsEffect'
 
-function ResumeCards() {
+const ResumeCards = () => {
   return (
     <div className="">
       <div className="resume-single__title"><ResumeCardsEffect/></div>

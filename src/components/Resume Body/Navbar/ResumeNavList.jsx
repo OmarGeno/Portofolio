@@ -1,7 +1,7 @@
 import './ResumeCollapseList.css'
 import { Link, Outlet } from 'react-router-dom'
 
-function ResumeNavList() {
+const ResumeNavList = () => {
   const omar = {
     about: 'About me',
     work: 'Projects',

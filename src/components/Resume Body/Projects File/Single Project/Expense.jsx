@@ -2,7 +2,7 @@ import './ResumeSingleProject.css'
 import first from './images/Expenseitem.png'
 import { ExpenseEffect } from '../../../Letter Effect/Project Effects/ExpenseEffect'
 
-function Expense() {
+const Expense = () => {
   return (
     <div className="">
       <div className="resume-single__title"><ExpenseEffect/></div>
