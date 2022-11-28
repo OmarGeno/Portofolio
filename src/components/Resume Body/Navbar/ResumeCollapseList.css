@@ -175,7 +175,7 @@ div:hover > a {
   }
   .links-nav {
     font-size: 12px;
-    padding: 1.2rem 0rem;
+    padding: 1.3rem 0rem;
     letter-spacing: 0.1rem;
   }
   .resume-collapse__nav > div:hover {
@@ -195,7 +195,7 @@ div:hover > a {
   }
   .links-nav {
     font-size: 10px;
-    padding: 1.2rem 0rem;
+    padding: 1.3rem 0rem;
   }
   .resume-collapse__nav > div:hover {
     font-size: 10px;
@@ -222,7 +222,7 @@ div:hover > a {
   }
   .links-nav {
     font-size: 7px;
-    padding: 0rem 0rem;
+    padding: 1.3rem 0rem;
   }
 }
 
@@ -241,7 +241,7 @@ div:hover > a {
   }
   .links-nav {
     font-size: 14px;
-    padding: 1.2rem 0rem;
+    padding: 1.3rem 0rem;
     letter-spacing: 0.1rem;
   }
 }
@@ -259,7 +259,7 @@ div:hover > a {
   }
   .links-nav {
     font-size: 20px;
-    padding: 1.2rem 0rem;
+    padding: 1.3rem 0rem;
     letter-spacing: 0rem;
   }
 }
