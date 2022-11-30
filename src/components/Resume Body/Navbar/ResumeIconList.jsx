@@ -26,7 +26,7 @@ const ResumeIconList= () => {
           alt=""
         />
         <a
-          href="https://drive.google.com/file/d/1xy69i9nOeiOXiNf01FTKGrkNeqM_ZtYV/view?usp=share_link"
+          href="https://drive.google.com/file/d/1C9LGSlUdr63jMEKS4mQfBU-sbCRytyRI/view?usp=sharing"
           target="_blank" rel="noreferrer"
         >
           Download resume
