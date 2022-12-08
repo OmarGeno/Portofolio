@@ -67,6 +67,11 @@
   font-weight: 600;
   letter-spacing: 2px;
 }
+
+.scrl {
+  scroll-behavior: smooth !important;
+}
+
 @media screen and (max-width: 410px) {
   .resume-projects__container {
     display: grid;
