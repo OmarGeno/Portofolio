@@ -50,12 +50,18 @@ const ResumeProjects = () => {
     },
     {
       id: 8,
+      image: "https://i.ibb.co/kGhVLYq/note1.png",
+      title: 'Notes App using PHP',
+      link: 'notes',
+    },
+    {
+      id: 9,
       image: 'https://i.ibb.co/WnLzS1V/skill3.png',
       title: 'Skills using PHP & MySQL',
       link: 'getSkill',
     },
     {
-      id: 9,
+      id: 10,
       image: 'https://i.ibb.co/8jFw7mn/angular.png',
       title: 'Profile cards with Angular.ts',
       link: 'angular-card',

@@ -15,6 +15,7 @@ import ResumeCards from './components/Resume Body/Projects File/Single Project/R
 import { Route, Routes, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import { Addskills } from './components/Resume Body/Projects File/Single Project/Addskills.jsx'
+import { Notes } from './components/Resume Body/Projects File/Single Project/Notes.jsx'
 // import { ResumeProgressBar } from './components/Resume Body/Navbar/ResumeProgressBar.jsx'
 
 export const AnimatedRoutes = () => {
@@ -64,6 +65,7 @@ export const AnimatedRoutes = () => {
             <Route path="coffee" element={<Coffee />} />
             <Route path="getSkill" element={<Addskills />} />
             <Route path="angular-card" element={<ResumeCards />} />
+            <Route path="notes" element={<Notes />} />
           </Route>
           <Route
             path="contact"
