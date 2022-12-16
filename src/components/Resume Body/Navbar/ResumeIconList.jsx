@@ -26,7 +26,7 @@ const ResumeIconList= () => {
           alt=""
         />
         <a
-          href="https://drive.google.com/u/1/uc?id=1C9LGSlUdr63jMEKS4mQfBU-sbCRytyRI&export=download"
+          href="https://drive.google.com/u/1/uc?id=1ZotgXz2ifnMJbQzdbpaO7YTwiIdVNh2-&export=download"
           target="_blank" rel="noreferrer"
           download
         >
