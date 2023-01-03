@@ -4,65 +4,76 @@ import ResumeProjectHeader from './ResumeProjectHeader'
 import { Outlet } from 'react-router-dom'
 import { motion } from 'framer-motion'
 
+import first from './Single Project/images/tictactoe.png';
+import second from './Single Project/images/spotify.png';
+import third from './Single Project/images/materializae1.png';
+import fourth from './Single Project/images/exp1.png';
+import fifth from './Single Project/images/angularcards.png';
+import sixth from './Single Project/images/Valo1.png';
+import seventh from './Single Project/images/coffe1.png';
+import eighth from './Single Project/images/note1.png';
+import ninth from './Single Project/images/skill7.png';
+import tenth from './Single Project/images/angular.png';
+
 const ResumeProjects = () => {
   const cardImages = [
     {
       id: 1,
-      image: 'https://i.ibb.co/jD6VHN9/tic-tac-toe.png',
+      image: first,
       title: 'Tic-tac-toe with React',
       link: 'tic-tac',
     },
     {
       id: 2,
-      image: 'https://i.ibb.co/0hShMNr/spotify.png',
+      image: second,
       title: 'Spotify with React',
       link: 'arcane',
     },
     {
       id: 3,
-      image: 'https://i.ibb.co/wKx9CWM/materializae-1.png',
+      image: third,
       title: 'Campus page with Materialize',
       link: 'campus',
     },
     {
       id: 4,
-      image: 'https://i.ibb.co/VBy9Cvc/Expense-item.png',
+      image: fourth,
       title: 'Expense Component with React',
       link: 'expense',
     },
     {
       id: 5,
-      image: 'https://i.ibb.co/Xbb56b5/angular-cards.png',
+      image: fifth,
       title: 'Business cards with Angular.ts',
       link: 'cards-intro',
     },
     {
       id: 6,
-      image: 'https://i.ibb.co/y4pKnpS/Valo1.png',
+      image: sixth,
       title: 'Valorant Page',
       link: 'valorant',
     },
     {
       id: 7,
-      image: 'https://i.ibb.co/mNvgcy0/coffee-2.png',
+      image: seventh,
       title: 'Coffee with materialize',
       link: 'coffee',
     },
     {
       id: 8,
-      image: "https://i.ibb.co/kGhVLYq/note1.png",
-      title: 'Notes App using PHP',
+      image: eighth,
+      title: 'Notes App using React',
       link: 'notes',
     },
     {
       id: 9,
-      image: 'https://i.ibb.co/WnLzS1V/skill3.png',
+      image: ninth,
       title: 'Skills using PHP & MySQL',
       link: 'getSkill',
     },
     {
       id: 10,
-      image: 'https://i.ibb.co/8jFw7mn/angular.png',
+      image: tenth,
       title: 'Profile cards with Angular.ts',
       link: 'angular-card',
     },

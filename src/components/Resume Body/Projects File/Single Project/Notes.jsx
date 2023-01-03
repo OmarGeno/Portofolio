@@ -9,7 +9,7 @@ export const Notes = () => {
       <div className="resume-single__title"><NotesEffect /></div>
       <br />
       <div className="resume-single__text">
-        Notes app using PHP.{' '}
+        Notes app using React.{' '}
         <span>
           <a href="https://github.com/OmarGeno/Note-App">
             see project
