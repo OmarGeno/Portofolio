@@ -6,7 +6,7 @@ import sixth from './images/pizza3.png'
 import seventh from './images/pizza4.png'
 import eighth from './images/pizza5.png'
 import ninth from './images/pizza6.png'
-import { PizzeriaEffect } from '../../../Letter Effect/Project Effects/PizzeriaEffect'
+import PizzeriaEffect  from '../../../Letter Effect/Project Effects/PizzeriaEffect'
  
 export const Pizzeria = () => {
   const imgs = [`${first}`, `${fifth}`, `${second}`, `${sixth}`, `${seventh}`, `${eighth}`, `${ninth}`];
