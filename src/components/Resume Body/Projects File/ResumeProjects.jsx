@@ -13,7 +13,8 @@ import sixth from './Single Project/images/Valo1.png';
 import seventh from './Single Project/images/coffe1.png';
 import eighth from './Single Project/images/note1.png';
 import ninth from './Single Project/images/skill7.png';
-import tenth from './Single Project/images/angular.png';
+import tenth from './Single Project/images/pizza1.png';
+import eleventh from './Single Project/images/angular.png';
 
 const ResumeProjects = () => {
   const cardImages = [
@@ -74,6 +75,12 @@ const ResumeProjects = () => {
     {
       id: 10,
       image: tenth,
+      title: 'Pizza App with .NET core',
+      link: 'pizza',
+    },
+    {
+      id: 11,
+      image: eleventh,
       title: 'Profile cards with Angular.ts',
       link: 'angular-card',
     },
