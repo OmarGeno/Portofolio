@@ -15,9 +15,9 @@ export const Pizzeria = () => {
       <div className="resume-single__title"><PizzeriaEffect /></div>
       <br />
       <div className="resume-single__text">
-        This page was impelmented to let the user add his skills. This project can be nested within an apllication.{' '}
+        Pizza Application with ASP.NET core using the MVVM(Model - View - ViewModel) arhitecture.{' '}
         <span>
-          <a href="https://github.com/OmarGeno/Add-skills">
+          <a href="https://github.com/OmarGeno/Pizza-App">
             see project
           </a>
         </span>
