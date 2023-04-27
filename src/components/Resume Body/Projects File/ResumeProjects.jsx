@@ -15,6 +15,7 @@ import eighth from './Single Project/images/note1.png';
 import ninth from './Single Project/images/skill7.png';
 import tenth from './Single Project/images/pizza1.png';
 import eleventh from './Single Project/images/angular.png';
+import twelveth from './Single Project/images/q1.png';
 
 const ResumeProjects = () => {
   const cardImages = [
@@ -83,6 +84,12 @@ const ResumeProjects = () => {
       image: eleventh,
       title: 'Profile cards with Angular.ts',
       link: 'angular-card',
+    },
+    {
+      id: 12,
+      image: twelveth,
+      title: 'Quizz-app for mobile made with Flutter',
+      link: 'quizz-app',
     },
   ]
 

@@ -12,7 +12,7 @@ const ResumeHeader = () => {
       <div className="resume-container__mini-container">
         <div className="resume-container__text">
           <LetterEffect />
-          <p>Full Stack Developer</p>
+          <p>Web & Mobile</p>
         </div>
       </div> 
       <ResumeShapes />

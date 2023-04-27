@@ -4,7 +4,7 @@ import { TextSpan } from './TextSpan'
 import { motion } from 'framer-motion'
 
 export const LetterEffect = () => {
-  const sentences = ['Hi,', "I'm ", 'O', 'mar, ', 'web developer']
+  const sentences = ['Hi,', "I'm ", 'O', 'mar, ', 'Software developer']
   const letters = []
 
   const one = () => {

@@ -13,8 +13,8 @@ const ResumeAbout = () => {
         <br />
         <br />
         <div className="resume-about__text">
-          I'm a Full Stack Web Developer located in Romania. I have serious
-          passion for entire web development spectrum and working everyday to
+          I'm a software developer  located in Romania. I have serious
+          passion for the entire web and mobile development spectrum and working everyday to
           get better.
         </div>
         <div className="resume-about__text">

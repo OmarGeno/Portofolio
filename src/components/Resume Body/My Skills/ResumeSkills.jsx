@@ -12,20 +12,18 @@ const ResumeSkills = () => {
         <br />
         <div className="resume-skills__text">
           I like to code things from scratch, and enjoy bringing ideas to life
-          in the browser. Since my journey started in coding, I always tried my
-          best to obtain satisfying results for the work.
+          in the browser and in the mobile apps. Since my journey started in coding, I always tried my best to obtain satisfying results for the work.
         </div>
         <div className="resume-skills__text">
-          I like to create successful responsive websites that are fast, easy to
-          use and built with best practices.
+          I like to create successful responsive websites and mobile apps that are fast, easy to use and built with best practices.
         </div>
         <div className="resume-skills__text">
-          The main tools I use in web development are: JavaScript | React JS |
+          The main tools I use in development are: Dart | Flutter | JavaScript | React JS |
           HTML | CSS | PHP | Git | Bootstrap.
         </div>
         <div className="resume-skills__text">
-          Other tools I am familiar with: Node.js | Angular | jQuery |
-          Typescript | JSON | Materialize.
+          Other tools I am familiar with: C# | ASP.NET core | Node.js | Angular | jQuery |
+          Typescript | Java | JSON | Materialize.
         </div>
         <div className="resume-skills__text">
           <pre className="pre-links">
