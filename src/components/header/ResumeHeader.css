@@ -52,7 +52,7 @@
 
 @media screen and (min-width: 390px) {
   .resume-container__text {
-    font-size: 3rem;
+    font-size: 2.10rem;
   }
   .o {
     text-shadow: -5px 0px rgb(123, 35, 35);
@@ -65,7 +65,7 @@
 @media screen and (min-width: 768px) {
   .resume-container__text {
     margin: 0px;
-    font-size: 3rem;
+    font-size: 2.7rem;
   }
   .o {
     text-shadow: -5px 0px rgb(123, 35, 35);
@@ -82,7 +82,7 @@
 @media screen and (min-width: 992px) {
   .resume-container__text {
     margin: 0px;
-    font-size: 78px;
+    font-size: 60px;
   }
   .o {
     text-shadow: -8px 0px rgb(123, 35, 35);
@@ -98,7 +98,7 @@
 
 @media screen and (min-width: 1400px) {
   .resume-container__text {
-    font-size: 99px;
+    font-size: 85px;
     margin-left: 0px;
   }
   .o {
