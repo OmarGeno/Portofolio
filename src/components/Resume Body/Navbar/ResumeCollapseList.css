@@ -18,14 +18,15 @@
 }
 .icon-container {
   width: 100px;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 .resume-collapse__nav > div {
+  background-color: black;
   font-size: 25px;
   padding: 1.3rem 2rem;
   font-weight: 1000;
-  transition: all 0.25s ease-in-out;
+  /* transition: all 0.25s ease-in-out; */
   cursor: pointer;
   line-height: 35px;
   font-stretch: extra-expanded;
@@ -51,13 +52,20 @@ div:hover > a {
 }
 
 .resume-collapse__nav > div:hover {
-  background-color: rgb(255, 255, 255);
-  font-size: 30px;
+  background-color: rgb(2, 2, 2);
+  color: white !important;
+  font-size: 25px !important;
+  text-shadow: 1px 1px rgb(95, 187, 126);
+}
+.links-nav:hover {
+  background-color: rgb(2, 2, 2);
+  color: white;
+  font-size: 25px;
   text-shadow: 1px 1px rgb(95, 187, 126);
 }
 
 .icon-tags:hover img {
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   transform: scale(1.1);
 }
 
@@ -118,10 +126,10 @@ div:hover > a {
   cursor: pointer;
 }
 .logo-container:hover {
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   transform: scale(1.1);
 }
-.resume-progress__bar{
+.resume-progress__bar {
   position: fixed;
   top: 0;
   left: 0;
@@ -140,17 +148,23 @@ div:hover > a {
   .resume-collapse__nav > div:hover {
     font-size: 16px;
   }
+  .links-nav:hover {
+    font-size: 16px;
+  }
   .resume-collapse__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
   }
-  .resume-collapse__nav > div:hover {
+  /* .resume-collapse__nav > div:hover {
     background-color: rgb(255, 255, 255);
     color: black;
     font-size: 30px;
     text-shadow: 1px 1px rgb(95, 187, 126);
+  } */
+  .links-nav:hover {
+    font-size: 25px;
   }
   .icon-tags {
     transform: translateY(-200px);
@@ -182,6 +196,9 @@ div:hover > a {
     font-size: 13px;
     background-color: rgba(0, 0, 0, 0);
   }
+  .links-nav:hover {
+    font-size: 13px;
+  }
   .icon-tags > a > img {
     width: 20px;
     height: 20px;
@@ -201,6 +218,9 @@ div:hover > a {
     font-size: 10px;
     background-color: rgba(0, 0, 0, 0);
   }
+  .links-nav:hover {
+    font-size: 10px;
+  }
   .icon-tags > a > img {
     width: 20px;
     height: 20px;
@@ -215,6 +235,9 @@ div:hover > a {
   .resume-collapse__nav > div:hover {
     font-size: 7px;
     background-color: rgba(0, 0, 0, 0);
+  }
+  .links-nav:hover {
+    font-size: 7px;
   }
   .icon-tags > a > img {
     width: 20px;
@@ -235,6 +258,9 @@ div:hover > a {
   .resume-collapse__nav > div:hover {
     font-size: 20px;
   }
+  .links-nav:hover {
+    font-size: 20px;
+  }
   .icon-tags > a > img {
     width: 20px;
     height: 20px;
@@ -253,6 +279,9 @@ div:hover > a {
   .resume-collapse__nav > div:hover {
     font-size: 25px;
   }
+  .links-nav:hover {
+    font-size: 25px;
+  }
   .icon-tags > a > img {
     width: 30px;
     height: 30px;
@@ -266,23 +295,30 @@ div:hover > a {
 @media screen and (min-width: 1200px) {
   .resume-collapse__nav > div {
     color: rgb(95, 187, 181);
-    font-size: 25px;
-    padding: 1.3rem 2rem;
+    font-size: 16px;
+    padding: 1.3rem 1.2rem;
     font-weight: 1000;
-    transition: all 0.25s ease-in-out;
+    transition: all 0.1s;
     cursor: pointer;
     line-height: 35px;
     font-stretch: extra-expanded;
     letter-spacing: 0.3rem;
+    background-color: rgb(2, 2, 2);
   }
   .resume-collapse__nav > div:hover {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    font-size: 30px;
+    background-color: rgb(2, 2, 2);
+    color: white;
+    font-size: 25px;
+    text-shadow: 1px 1px rgb(95, 187, 126);
+  }
+  .links-nav:hover {
+    background-color: rgb(2, 2, 2);
+    color: white;
+    font-size: 25px;
     text-shadow: 1px 1px rgb(95, 187, 126);
   }
   .links-nav {
-    font-size: 25px;
+    font-size: 20px;
     padding: 1.2rem 0rem;
     font-weight: 1000;
     transition: all 0.25s ease-in-out;
