@@ -18,6 +18,7 @@ import { Addskills } from './components/Resume Body/Projects File/Single Project
 import { Notes } from './components/Resume Body/Projects File/Single Project/Notes.jsx'
 import { Pizzeria } from './components/Resume Body/Projects File/Single Project/Pizzeria.jsx'
 import { QuizzApp } from './components/Resume Body/Projects File/Single Project/QuizzApp.jsx'
+import { Logistics } from './components/Resume Body/Projects File/Single Project/LogisticsApp.jsx'
 // import { ResumeProgressBar } from './components/Resume Body/Navbar/ResumeProgressBar.jsx'
 
 export const AnimatedRoutes = () => {
@@ -58,6 +59,7 @@ export const AnimatedRoutes = () => {
           <Route path="about" element={<ResumeAbout />} />
           <Route path="skills" element={<ResumeSkills />} />
           <Route path="projects/*" element={<ResumeProjects />}>
+            <Route path="logistics" element={<Logistics />} />
             <Route path="tic-tac" element={<TicTac />} />
             <Route path="arcane" element={<Arcane />} />
             <Route path="campus" element={<Campus />} />
