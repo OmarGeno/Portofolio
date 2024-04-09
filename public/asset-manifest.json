@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.750557f3.css",
-    "main.js": "/static/js/main.3940bbe8.js",
+    "main.css": "/static/css/main.34e9d3e4.css",
+    "main.js": "/static/js/main.a692e0b1.js",
     "static/js/787.dc9ee2bf.chunk.js": "/static/js/787.dc9ee2bf.chunk.js",
     "static/media/coffee2.png": "/static/media/coffee2.c4fb365aef39336dd59b.png",
     "static/media/pizza3.png": "/static/media/pizza3.ee951192e14b93cea2ce.png",
@@ -26,14 +26,26 @@
     "static/media/Valo2.png": "/static/media/Valo2.7234b2bdc492102b6e00.png",
     "static/media/q2.png": "/static/media/q2.83aa043a23bda4d7ca06.png",
     "static/media/q3.png": "/static/media/q3.3d59efbd9452152d52f8.png",
+    "static/media/pabllo5.png": "/static/media/pabllo5.9a51fb1b5c8d2bbcb4fa.png",
     "static/media/angularcards.png": "/static/media/angularcards.5e75dec19bfe5aebd352.png",
+    "static/media/pabllo11.png": "/static/media/pabllo11.564dc9c348e9b0cc9377.png",
+    "static/media/pabllo9.png": "/static/media/pabllo9.3e841b66f32dc1ad90ca.png",
     "static/media/angularcards2.png": "/static/media/angularcards2.bd5b01b821dfc1d78a82.png",
+    "static/media/pabllo4.png": "/static/media/pabllo4.991d895946ed124688e9.png",
+    "static/media/pabllo6.png": "/static/media/pabllo6.c93f9dbf4dfa882397fd.png",
+    "static/media/pabllo3.png": "/static/media/pabllo3.11414e4530a92fc23f48.png",
     "static/media/tictactoe.png": "/static/media/tictactoe.2cfd4029cd663d401913.png",
+    "static/media/pabllo1.png": "/static/media/pabllo1.d2ae04f9716dc3edb31a.png",
+    "static/media/pabllo7.png": "/static/media/pabllo7.eaabc19ddc307f58a81d.png",
     "static/media/spotify2.png": "/static/media/spotify2.4d9268ccbfa40c6e392d.png",
+    "static/media/pabllo8.png": "/static/media/pabllo8.8bacf5a0efef0976afaa.png",
+    "static/media/pabllo2.png": "/static/media/pabllo2.3469997b1f0012aac394.png",
     "static/media/skill3.png": "/static/media/skill3.035039f019c2816cb34f.png",
     "static/media/skill7.png": "/static/media/skill7.742594d320adf5114597.png",
+    "static/media/pabllo10.png": "/static/media/pabllo10.b7dd294f5830a6dad06e.png",
     "static/media/skill6.png": "/static/media/skill6.d514e9e1885d11d7d846.png",
     "static/media/sss.png": "/static/media/sss.3714b3ff2a3f0f28a56d.png",
+    "static/media/pabllo12.png": "/static/media/pabllo12.c862d65815286b1eeeb1.png",
     "static/media/skilledit.png": "/static/media/skilledit.b946e4a2d3e223dc57b5.png",
     "static/media/exp3.png": "/static/media/exp3.6a61b1964ea9f55f718a.png",
     "static/media/Materialize4.png": "/static/media/Materialize4.6edeea2ecbf46e28cf93.png",
@@ -45,12 +57,12 @@
     "static/media/pizza6.png": "/static/media/pizza6.31f1d49de8012e0ddafe.png",
     "static/media/skill5.png": "/static/media/skill5.8053a117c67f9101cc12.png",
     "index.html": "/index.html",
-    "main.750557f3.css.map": "/static/css/main.750557f3.css.map",
-    "main.3940bbe8.js.map": "/static/js/main.3940bbe8.js.map",
+    "main.34e9d3e4.css.map": "/static/css/main.34e9d3e4.css.map",
+    "main.a692e0b1.js.map": "/static/js/main.a692e0b1.js.map",
     "787.dc9ee2bf.chunk.js.map": "/static/js/787.dc9ee2bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.750557f3.css",
-    "static/js/main.3940bbe8.js"
+    "static/css/main.34e9d3e4.css",
+    "static/js/main.a692e0b1.js"
   ]
 }
