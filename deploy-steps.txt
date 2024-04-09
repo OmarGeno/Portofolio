@@ -1,0 +1,6 @@
+To deploy on firebase:
+
+1. npm run build
+2. compy build files into a public folder
+3. firebase deploy
+4. open broswer and refresh cache ctrl + f5
